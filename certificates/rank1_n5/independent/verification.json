@@ -1,0 +1,30 @@
+{
+  "polynomials": {
+    "sha256": "b24c1e9182a82f1db7e363e5390b10c49bf7926b584cd6c84b4d897554513d8c",
+    "total": 120,
+    "zero": 46,
+    "nonzero": 74,
+    "max_degree": 8
+  },
+  "prime_scan": {
+    "sha256": "be790b3cb0dfab6c3ea1ea35528bbedbdad7a4eaa85ccdc3657da7cfb356956f",
+    "runs": 304,
+    "unit": 304,
+    "sum_seconds": 10766.448,
+    "max_seconds": 44.294,
+    "max_peak_rss_kib": 881712,
+    "swap_range_mib": [
+      3801.12,
+      5677.19
+    ]
+  },
+  "controls": {
+    "sha256": "7f1581a556436f43514d39b7ae21e9c994707c4544ba3bac42c031565e8193e8",
+    "verified": true
+  },
+  "finite_audit": {
+    "sha256": "7e36615379c973b8117b02f206c01e35f09ecedd31f1643e33f03d06242f0ba4",
+    "verified": true
+  },
+  "verified": true
+}

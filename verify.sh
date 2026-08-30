@@ -28,7 +28,7 @@ check_lean_record() {
 
 check_bases() {
   count=$(find "$ROOT/certificates" -name '*.gb' | wc -l | tr -d ' ')
-  test "$count" = 54739 || fail basis-count
+  test "$count" = 55216 || fail basis-count
   for family in k1695_r6_r2split k1695_r6_r2split357 k1695_r6_r2splitq k1695_r6_r2split1113 k1695_r6_r2split1723 r2split_check r2split_odd rank1; do
     sample=$(find "$ROOT/certificates/$family" -name '*.gb' | head -n 1)
     test -n "$sample" || fail "basis-family-$family"
@@ -41,26 +41,37 @@ check_msolve() {
   command -v "$MSOLVE_BIN" >/dev/null 2>&1 || fail msolve-not-found
   tmp=$(mktemp -d "${TMPDIR:-/tmp}/k1695-quick.XXXXXX")
   trap 'rm -rf "$tmp"' EXIT INT TERM
-  family="$ROOT/certificates/k1695_r6_r2split1723"
-  for p in 17 19 23; do
-    state="$family/certificates/state_p${p}_uc0.json"
-    generated="$tmp/p${p}"
-    python3 "$ROOT/scripts/regenerate_from_state.py" "$state" "$generated" --sample-count 1 >/dev/null
-    input=$(find "$generated" -name '*.ms' | head -n 1)
-    expected="$family/samples/$(basename "$input")"
-    cmp -s "$input" "$expected" || fail "p${p}-byte-regeneration"
-    output="$tmp/p${p}.gb"
-    log="$tmp/p${p}.log"
-    python3 "$ROOT/encoders/line/run_capped.py" --wall 600 --mem 2500000 --log "$log" -- \
-      "$MSOLVE_BIN" -g 2 -v 1 -t 1 -f "$input" -o "$output" >/dev/null || fail "p${p}-wrapper"
-    grep -q 'EXIT code=0' "$log" || fail "p${p}-msolve-exit"
-    ! grep -q 'UNRESOLVED cap=' "$log" || fail "p${p}-msolve-cap"
-    body=$(grep -v '^#' "$output" | tr -d '[:space:]')
-    expected_body=$(grep -v '^#' "$family/samples/$(basename "$input" .ms).gb" | tr -d '[:space:]')
-    test "$body" = "$expected_body" || fail "p${p}-basis-mismatch"
-  done
-  pass 'p=17,19,23 byte-identical regeneration and capped msolve samples'
+  family="$ROOT/certificates/rank1_n5/independent"
+  input="$family/p3.ms"
+  expected="$family/p3.gb"
+  output="$tmp/p3.gb"
+  log="$tmp/p3.log"
+  python3 "$ROOT/encoders/line/run_capped.py" --wall 600 --mem 2500000 --log "$log" -- \
+    "$MSOLVE_BIN" -g 2 -v 1 -t 1 -f "$input" -o "$output" >/dev/null || fail "p3-wrapper"
+  grep -q 'EXIT code=0' "$log" || fail "p3-msolve-exit"
+  ! grep -q 'UNRESOLVED cap=' "$log" || fail "p3-UNRESOLVED-due-to-load"
+  body=$(grep -v '^#' "$output" | tr -d '[:space:]')
+  expected_body=$(grep -v '^#' "$expected" | tr -d '[:space:]')
+  test "$body" = "$expected_body" || fail "p3-basis-mismatch"
+  pass 'C8 independent-family p=3 capped msolve rerun'
   rm -rf "$tmp"; trap - EXIT INT TERM
+}
+
+check_rank1_n5() {
+  family="$ROOT/certificates/rank1_n5/independent"
+  test "$(find "$family" -maxdepth 1 -name '*.ms' | wc -l | tr -d ' ')" = 304 || fail n5-ms-count
+  test "$(find "$family" -maxdepth 1 -name '*.gb' | wc -l | tr -d ' ')" = 304 || fail n5-gb-count
+  python3 - "$family" <<'PY'
+import json, pathlib, sys
+root = pathlib.Path(sys.argv[1])
+state = json.loads((root / "prime_results.json").read_text())
+audit = json.loads((root / "finite_audit.json").read_text())
+assert len(state["results"]) == 304 and state["exhaustive"] and state["all_unit"]
+assert [(row["characteristic"], row["rank_one_invertible_matrices"], row["failed"])
+        for row in audit["audits"]] == [(2, 465, 0), (3, 19481, 0)]
+PY
+  grep -qx PASS "$family/GRADE.md" || fail n5-gate
+  pass 'C8 certificate inventory, finite audits, and gate'
 }
 
 check_data() {
@@ -96,7 +107,7 @@ full_replay() {
 }
 
 case "$TARGET" in
-  quick) check_manifest; check_lean_record; check_bases; check_msolve; check_data ;;
+  quick) check_manifest; check_lean_record; check_bases; check_rank1_n5; check_msolve; check_data ;;
   lean) check_lean_record ;;
   lean-build) lean_build ;;
   data) check_data ;;

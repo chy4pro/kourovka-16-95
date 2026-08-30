@@ -1,0 +1,9 @@
+#Reduced Groebner basis data
+#---
+#field characteristic: 3
+#variable order:       toy_x, toy_y, toy_t
+#monomial order:       graded reverse lexicographical
+#length of basis:      2 elements sorted by increasing leading monomials
+#---
+[1*toy_y^1,
+1*toy_x^1*toy_t^1+2]:

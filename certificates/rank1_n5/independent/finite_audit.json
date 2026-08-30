@@ -1,0 +1,41 @@
+{
+  "audits": [
+    {
+      "characteristic": 2,
+      "projective_v": 31,
+      "rank_one_invertible_matrices": 465,
+      "failed": 0,
+      "witness_permutation_counts": {
+        "9": 280,
+        "27": 83,
+        "31": 50,
+        "32": 32,
+        "33": 10,
+        "34": 6,
+        "37": 4
+      },
+      "seconds": 0.751,
+      "verified": true
+    },
+    {
+      "characteristic": 3,
+      "projective_v": 121,
+      "rank_one_invertible_matrices": 19481,
+      "failed": 0,
+      "witness_permutation_counts": {
+        "9": 14872,
+        "10": 496,
+        "17": 64,
+        "27": 2556,
+        "31": 918,
+        "32": 420,
+        "33": 119,
+        "34": 24,
+        "37": 12
+      },
+      "seconds": 25.519,
+      "verified": true
+    }
+  ],
+  "verified": true
+}

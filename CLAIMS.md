@@ -44,8 +44,12 @@ Evidence: `data/refutations/REFUTATIONS.json` and `data/refutations/verify_refut
 
 ## C7'
 
-C7' [exact integer content, computed] As of 2026-08-30 12:0x CDT, for 2,394 of the 4,694 characteristic-zero rank-two terminals the contraction generator d_S = generator of I_S ∩ Z has been computed exactly by a strong Gröbner basis over Z (Singular 4.3.2): d_S = 1 for 1,383 terminals, d_S = 2 for 1,006 terminals, and d_S = 3 for 5 terminals. Every prime dividing a computed d_S lies in {2,3}. Hence on those resolved terminals the certificate is valid in every characteristic; the explicit exceptional set restricted to them is contained in {2,3}, both closed directly.
+C7' [exact integer content, computed] As of 2026-08-30 14:3x CDT, for 3,016 of the 4,694 characteristic-zero rank-two terminals the contraction generator d_S = generator of I_S ∩ Z has been computed exactly by a strong Gröbner basis over Z (Singular 4.3.2): d_S = 1 for 1,612 terminals, d_S = 2 for 1,399 terminals, and d_S = 3 for 5 terminals. Every prime dividing a computed d_S lies in {2,3}. Hence on those resolved terminals the certificate is valid in every characteristic; the explicit exceptional set restricted to them is contained in {2,3}, both closed directly.
 
 Evidence: `scripts/round6_zstd_one.py`, `scripts/zlift_one_v2.py`, `scripts/zlift_one_v3.py`, `data/zstd/results.tsv`, and `data/zstd/run8_results.tsv`.
 
-OPEN: n ≥ 5 in every characteristic; n = 4 for the finitely many unknown exceptional primes.
+## C8
+
+C8 [Gröbner certificates, two independent encoder families] n = 5, rank-one stratum (A = λ(I + u vᵀ) ∈ GL(5,F)): some A P_σ is cyclic over every field of characteristic 0 and of characteristic p for every prime p < 2000. Method: the deflation (Krylov-determinant) ideal J₅ — 120 determinants (74 nonzero, degree ≤ 8) in 8 variables — is the unit ideal; by the kernel-checked deflation lemma (cyclic_standardBasis_of_principalBlock, general n) this yields a cyclic vector e_i for some permutation. Families: the line's (sympy- and Singular-built, ℚ and every p < 1000) and an independent clean-room encoder (ℚ and every p < 2000; exhaustive audits over GF(2) — 465 matrices — and GF(3) — 19 481 matrices). Evidence: certificates/rank1_n5/. The rank ≥ 2 strata at n = 5 remain OPEN.
+
+OPEN: n ≥ 5 beyond the rank-one stratum (n = 5) in every characteristic; n = 5 rank-one for p ≥ 2000; n = 4 for the finitely many unknown exceptional primes.
