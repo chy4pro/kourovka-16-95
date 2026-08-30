@@ -74,6 +74,18 @@ PY
   pass 'C8 certificate inventory, finite audits, and gate'
 }
 
+check_rank1_families() {
+  family="$ROOT/scripts/rank1_families"
+  (cd "$family" && shasum -a 256 -c SHA256SUMS >/dev/null) || fail rank1-families-checksums
+  tmp=$(mktemp -d "${TMPDIR:-/tmp}/k1695-r1alln.XXXXXX")
+  trap 'rm -r "$tmp"' EXIT INT TERM
+  cc -O2 "$family/round6_r1alln_exhaust.c" -o "$tmp/round6_r1alln_exhaust" || fail r1alln-compile
+  "$tmp/round6_r1alln_exhaust" 2 4 >"$tmp/run.log" || fail r1alln-run
+  grep -q 'p=2 m=4 points=256 all_witnessed=1 bad=0' "$tmp/run.log" || fail r1alln-result
+  pass 'C9-C10 every-n families and p=2 m=4 exhaustion spot check'
+  rm -r "$tmp"; trap - EXIT INT TERM
+}
+
 check_data() {
   python3 "$ROOT/data/refutations/verify_refutations.py"
   pass C7
@@ -107,7 +119,7 @@ full_replay() {
 }
 
 case "$TARGET" in
-  quick) check_manifest; check_lean_record; check_bases; check_rank1_n5; check_msolve; check_data ;;
+  quick) check_manifest; check_lean_record; check_bases; check_rank1_n5; check_rank1_families; check_data ;;
   lean) check_lean_record ;;
   lean-build) lean_build ;;
   data) check_data ;;

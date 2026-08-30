@@ -44,7 +44,7 @@ Evidence: `data/refutations/REFUTATIONS.json` and `data/refutations/verify_refut
 
 ## C7'
 
-C7' [exact integer content, computed] As of 2026-08-30 14:3x CDT, for 3,016 of the 4,694 characteristic-zero rank-two terminals the contraction generator d_S = generator of I_S ∩ Z has been computed exactly by a strong Gröbner basis over Z (Singular 4.3.2): d_S = 1 for 1,612 terminals, d_S = 2 for 1,399 terminals, and d_S = 3 for 5 terminals. Every prime dividing a computed d_S lies in {2,3}. Hence on those resolved terminals the certificate is valid in every characteristic; the explicit exceptional set restricted to them is contained in {2,3}, both closed directly.
+C7' [exact integer content, computed] As of 2026-08-30 16:3x CDT, for 3,038 of the 4,694 characteristic-zero rank-two terminals the contraction generator d_S = generator of I_S ∩ Z has been computed exactly by a strong Gröbner basis over Z (Singular 4.3.2): d_S = 1 for 1,634 terminals, d_S = 2 for 1,399 terminals, and d_S = 3 for 5 terminals. Every prime dividing a computed d_S lies in {2,3}. Hence on those resolved terminals the certificate is valid in every characteristic; the explicit exceptional set restricted to them is contained in {2,3}, both closed directly.
 
 Evidence: `scripts/round6_zstd_one.py`, `scripts/zlift_one_v2.py`, `scripts/zlift_one_v3.py`, `data/zstd/results.tsv`, and `data/zstd/run8_results.tsv`.
 
@@ -52,4 +52,16 @@ Evidence: `scripts/round6_zstd_one.py`, `scripts/zlift_one_v2.py`, `scripts/zlif
 
 C8 [Gröbner certificates, two independent encoder families] n = 5, rank-one stratum (A = λ(I + u vᵀ) ∈ GL(5,F)): some A P_σ is cyclic over every field of characteristic 0 and of characteristic p for every prime p < 2000. Method: the deflation (Krylov-determinant) ideal J₅ — 120 determinants (74 nonzero, degree ≤ 8) in 8 variables — is the unit ideal; by the kernel-checked deflation lemma (cyclic_standardBasis_of_principalBlock, general n) this yields a cyclic vector e_i for some permutation. Families: the line's (sympy- and Singular-built, ℚ and every p < 1000) and an independent clean-room encoder (ℚ and every p < 2000; exhaustive audits over GF(2) — 465 matrices — and GF(3) — 19 481 matrices). Evidence: certificates/rank1_n5/. The rank ≥ 2 strata at n = 5 remain OPEN.
 
-OPEN: n ≥ 5 beyond the rank-one stratum (n = 5) in every characteristic; n = 5 rank-one for p ≥ 2000; n = 4 for the finitely many unknown exceptional primes.
+## C9
+
+C9 [proved in the paper, hand-graded] Every n, every field, rank-one stratum A = λ(I + uwᵀ): if |supp(u)| ≤ 3 or |supp(w)| ≤ 3, or u (resp. w) is constant on supp(w)∖{i} (resp. supp(u)∖{i}) for some i in that support, then some AP_σ is cyclic. Proofs: the paper's section "Sparse and constant rank-one families in every dimension" (complete, self-contained); computational corroboration scripts/rank1_families/round6_r1alln_check.py (identity checks (3.1),(3.2),(3.3),(4.1),(4.2),(8.1) — PASS transcript included).
+
+Evidence: `paper/ABSTRACT.md`, `scripts/rank1_families/round6_r1alln_check.py`, and `scripts/rank1_families/round6_r1alln_check.log`.
+
+## C10
+
+C10 [exhaustive computation, two independent implementations] Conjecture J (the deflated rank-one criterion) verified pointwise: F₂ for m ≤ 8 (rank-one 16.95 up to n = 9 over F₂), F₃ m ≤ 6 (n ≤ 7), F₅ m = 5 (n = 6), F₇ m = 4 (n = 5) — one full-witness clean-room verifier (C99) + one restricted-witness verifier (C++17), run tables line-for-line identical. Prime fields only; extensions/closures not covered.
+
+Evidence: `scripts/rank1_families/round6_r1alln_exhaust.c`, `scripts/rank1_families/k6_r1alln_verify.cpp`, and the recorded transcripts and checksums in `scripts/rank1_families/`.
+
+OPEN: Conjecture J and the general rank-one stratum outside C9's families; n = 5 rank at least 2 in every characteristic and rank one for p ≥ 2000 outside C9; n = 4 for the finitely many unknown exceptional primes; n ≥ 6 beyond C9's families.

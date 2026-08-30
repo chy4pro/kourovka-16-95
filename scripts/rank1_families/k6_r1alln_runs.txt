@@ -1,0 +1,34 @@
+PROVED_BY_EXHAUSTION p=2 m=1 n=2 mode=restricted candidates=2 total_pairs=4 x_solved_by_c0=1 residual_pairs_checked=2 witness_checks=4 max_residual_checks=1 seconds=6.164e-06
+HARDEST x=[0] y=[0] winner_kind=path omitted=1 tau=[0]
+PROVED_BY_EXHAUSTION p=2 m=2 n=3 mode=restricted candidates=5 total_pairs=16 x_solved_by_c0=2 residual_pairs_checked=8 witness_checks=13 max_residual_checks=2 seconds=1.3062e-05
+HARDEST x=[1,1] y=[0,1] winner_kind=path omitted=2 tau=[0,1]
+PROVED_BY_EXHAUSTION p=2 m=3 n=4 mode=restricted candidates=14 total_pairs=64 x_solved_by_c0=3 residual_pairs_checked=40 witness_checks=70 max_residual_checks=4 seconds=7.9134e-05
+HARDEST x=[1,0,1] y=[0,0,1] winner_kind=path omitted=2 tau=[0,3,1]
+PROVED_BY_EXHAUSTION p=2 m=4 n=5 mode=restricted candidates=54 total_pairs=256 x_solved_by_c0=8 residual_pairs_checked=128 witness_checks=274 max_residual_checks=10 seconds=0.000286692
+HARDEST x=[1,0,0,1] y=[0,0,0,1] winner_kind=path omitted=2 tau=[0,3,4,1]
+PROVED_BY_EXHAUSTION p=2 m=5 n=6 mode=restricted candidates=264 total_pairs=1024 x_solved_by_c0=15 residual_pairs_checked=544 witness_checks=2083 max_residual_checks=121 seconds=0.00296308
+HARDEST x=[1,1,1,1,1] y=[1,1,1,1,1] winner_kind=path+fixed omitted=2 tau=[1,3,4,5,0]
+PROVED_BY_EXHAUSTION p=2 m=6 n=7 mode=restricted candidates=1560 total_pairs=4096 x_solved_by_c0=32 residual_pairs_checked=2048 witness_checks=11674 max_residual_checks=154 seconds=0.0230535
+HARDEST x=[1,0,0,0,0,1] y=[0,0,0,0,0,1] winner_kind=path omitted=2 tau=[0,3,4,5,6,1]
+PROVED_BY_EXHAUSTION p=2 m=7 n=8 mode=restricted candidates=10800 total_pairs=16384 x_solved_by_c0=63 residual_pairs_checked=8320 witness_checks=132827 max_residual_checks=874 seconds=0.325375
+HARDEST x=[1,0,0,0,0,0,1] y=[0,0,0,0,0,0,1] winner_kind=path omitted=2 tau=[0,3,4,5,6,7,1]
+PROVED_BY_EXHAUSTION p=3 m=1 n=2 mode=restricted candidates=2 total_pairs=9 x_solved_by_c0=2 residual_pairs_checked=3 witness_checks=6 max_residual_checks=1 seconds=8.208e-06
+HARDEST x=[0] y=[0] winner_kind=path omitted=1 tau=[0]
+PROVED_BY_EXHAUSTION p=3 m=2 n=3 mode=restricted candidates=5 total_pairs=81 x_solved_by_c0=4 residual_pairs_checked=45 witness_checks=62 max_residual_checks=2 seconds=4.1573e-05
+HARDEST x=[1,1] y=[0,2] winner_kind=path omitted=2 tau=[0,1]
+PROVED_BY_EXHAUSTION p=3 m=3 n=4 mode=restricted candidates=14 total_pairs=729 x_solved_by_c0=18 residual_pairs_checked=243 witness_checks=350 max_residual_checks=7 seconds=0.000345498
+HARDEST x=[1,1,1] y=[1,1,1] winner_kind=path+fixed omitted=2 tau=[1,3,0]
+PROVED_BY_EXHAUSTION p=3 m=4 n=5 mode=restricted candidates=54 total_pairs=6561 x_solved_by_c0=40 residual_pairs_checked=3321 witness_checks=5327 max_residual_checks=25 seconds=0.00730313
+HARDEST x=[1,1,1,1] y=[2,2,2,2] winner_kind=path+fixed omitted=2 tau=[1,3,4,0]
+PROVED_BY_EXHAUSTION p=3 m=5 n=6 mode=restricted candidates=264 total_pairs=59049 x_solved_by_c0=160 residual_pairs_checked=20169 witness_checks=35207 max_residual_checks=73 seconds=0.0669684
+HARDEST x=[1,1,1,0,0] y=[1,1,1,2,2] winner_kind=path omitted=4 tau=[2,3,5,1,0]
+PROVED_BY_EXHAUSTION p=3 m=6 n=7 mode=restricted candidates=1560 total_pairs=531441 x_solved_by_c0=486 residual_pairs_checked=177147 witness_checks=338753 max_residual_checks=154 seconds=0.96947
+HARDEST x=[2,0,0,0,0,1] y=[0,0,0,0,0,2] winner_kind=path omitted=2 tau=[0,3,4,5,6,1]
+PROVED_BY_EXHAUSTION p=5 m=5 n=6 mode=restricted candidates=264 total_pairs=9765625 x_solved_by_c0=2500 residual_pairs_checked=1953125 witness_checks=2427821 max_residual_checks=121 seconds=5.66313
+HARDEST x=[1,1,1,1,1] y=[2,2,2,2,2] winner_kind=path+fixed omitted=2 tau=[1,3,4,5,0]
+PROVED_BY_EXHAUSTION p=7 m=4 n=5 mode=restricted candidates=54 total_pairs=5764801 x_solved_by_c0=1944 residual_pairs_checked=1097257 witness_checks=1271855 max_residual_checks=37 seconds=2.32187
+HARDEST x=[0,0,3,3] y=[0,0,3,3] winner_kind=path+fixed omitted=1 tau=[2,4,3,0]
+PROVED_BY_EXHAUSTION p=2 m=8 n=9 mode=restricted candidates=85680 total_pairs=65536 x_solved_by_c0=128 residual_pairs_checked=32768 witness_checks=1289543 max_residual_checks=5914 seconds=4.71384
+HARDEST x=[1,0,0,0,0,0,0,1] y=[0,0,0,0,0,0,0,1] winner_kind=path omitted=2 tau=[0,3,4,5,6,7,8,1]
+PROVED_BY_EXHAUSTION p=2 m=5 n=6 mode=all candidates=720 total_pairs=1024 x_solved_by_c0=15 residual_pairs_checked=544 witness_checks=16833 max_residual_checks=154 seconds=0.019804
+HARDEST x=[1,1,1,1,1] y=[1,0,0,0,0] winner_kind=all omitted=2 tau=[1,3,4,5,0]

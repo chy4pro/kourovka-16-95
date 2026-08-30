@@ -6,7 +6,7 @@ Use the pinned versions in `VERSIONS.md`. Set `MSOLVE` when the executable is no
 
 ## Quick and Lean checks
 
-`./verify.sh quick` is designed for a laptop and uses at most one msolve process. It regenerates one recorded input byte-for-byte for each of p = 17, 19, 23, then reruns those three samples sequentially through `run_capped.py --wall 600 --mem 2500000`. The recorded Lean files took 5–12 seconds each after Mathlib was built; the largest recorded axiom check took 127.5 seconds. A fresh Mathlib build can use several GiB, so it is intentionally opt-in:
+`./verify.sh quick` is designed for a laptop and runs no Gröbner solver. It validates the manifest, recorded Lean audits, certificate inventories, finite audits, and refutation data; it also compiles the C99 rank-one verifier with `cc -O2` and exhausts the 256 points for $p=2$, $m=4$. The recorded Lean files took 5–12 seconds each after Mathlib was built; the largest recorded axiom check took 127.5 seconds. A fresh Mathlib build can use several GiB, so it is intentionally opt-in:
 
 ```sh
 ./verify.sh lean-build

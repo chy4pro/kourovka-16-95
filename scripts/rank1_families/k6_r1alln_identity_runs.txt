@@ -1,0 +1,14 @@
+PASS path identities/resultant m=1
+PASS path identities/resultant m=2
+PASS path identities/resultant m=3
+PASS path+fixed identities ell=1
+PASS path+fixed identities ell=2
+PASS path+fixed identities ell=3
+PASS m=2 four closed forms
+PASS constant-x telescoping identity m=1
+PASS constant-x telescoping identity m=2
+PASS constant-x telescoping identity m=3
+PASS constant-x telescoping identity m=4
+PASS constant-x telescoping identity m=5
+PASS constant-x telescoping identity m=6
+ALL SYMBOLIC CHECKS PASSED

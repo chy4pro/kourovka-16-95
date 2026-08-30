@@ -1,0 +1,11 @@
+p=2 m=6 points=4096 all_witnessed=1 bad=0 max_candidates_scanned=994 avg=491.75
+p=2 m=7 points=16384 all_witnessed=1 bad=0 max_candidates_scanned=10954 avg=3295.35
+p=2 m=8 points=65536 all_witnessed=1 bad=0 max_candidates_scanned=51274 avg=25063.15
+p=3 m=1 points=9 all_witnessed=1 bad=0 max_candidates_scanned=2 avg=1.33
+p=3 m=2 points=81 all_witnessed=1 bad=0 max_candidates_scanned=5 avg=2.81
+p=3 m=3 points=729 all_witnessed=1 bad=0 max_candidates_scanned=11 avg=5.66
+p=3 m=4 points=6561 all_witnessed=1 bad=0 max_candidates_scanned=58 avg=20.35
+p=3 m=5 points=59049 all_witnessed=1 bad=0 max_candidates_scanned=256 avg=71.06
+p=3 m=6 points=531441 all_witnessed=1 bad=0 max_candidates_scanned=1022 avg=371.27
+p=7 m=4 points=5764801 all_witnessed=1 bad=0 max_candidates_scanned=62 avg=13.83
+p=5 m=5 points=9765625 all_witnessed=1 bad=0 max_candidates_scanned=185 avg=54.75

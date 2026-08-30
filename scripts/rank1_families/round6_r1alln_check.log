@@ -1,0 +1,19 @@
+== (3.1) and (8.1), exact over ZZ ==
+m=4: (3.1) PASS   (8.1) PASS
+m=5: (3.1) PASS   (8.1) PASS
+m=6: (3.1) PASS   (8.1) PASS
+m=7: (3.1) PASS   (8.1) PASS
+m=8: (3.1) PASS   (8.1) PASS
+== (3.2)/(3.3) over GF(101) and GF(2) ==
+m=4 p=101: (3.2)+(3.3) PASS
+m=4 p=2: (3.2)+(3.3) PASS
+m=5 p=101: (3.2)+(3.3) PASS
+m=5 p=2: (3.2)+(3.3) PASS
+m=6 p=101: (3.2)+(3.3) PASS
+m=6 p=2: (3.2)+(3.3) PASS
+== (4.1)/(4.2) over GF(101) and GF(2), path length ell ==
+ell=4 p=101: (4.1) PASS   (4.2) PASS
+ell=4 p=2: (4.1) PASS   (4.2) PASS
+ell=5 p=101: (4.1) PASS   (4.2) PASS
+ell=5 p=2: (4.1) PASS   (4.2) PASS
+done
