@@ -1,0 +1,53 @@
+START 2026-08-30T08:25:52
+CAP wall=600s resident_memory=2500000KiB
+COMMAND msolve -g 2 -v 1 -t 1 -f certificates/controls/p19_uc1__s01_E_1__s02_E_1__s03_E_1__s06_E_1__s07_E_1__s08_E_1__s10_E_1__s11_E_1__s14_E_1__s15_E_1__s16_E_1__s17_E_1__s18_E_1__s19_E_1__s20_E_1__s21_E_1__s22_E_1.ms -o certificates/controls/p19_uc1__s01_E_1__s02_E_1__s03_E_1__s06_E_1__s07_E_1__s08_E_1__s10_E_1__s11_E_1__s14_E_1__s15_E_1__s16_E_1__s17_E_1__s18_E_1__s19_E_1__s20_E_1__s21_E_1__s22_E_1.gb
+Initial seed for pseudo-random number generator is 1788096352
+
+--------------- INPUT DATA ---------------
+#variables                      14
+#equations                     270
+#invalid equations               0
+field characteristic            19
+homogeneous input?               0
+signature-based computation      0
+monomial order                 DRL
+basis hash table resetting     OFF
+linear algebra option            2
+initial hash table size     131072 (2^17)
+max pair selection             ALL
+reduce gb                        1
+#threads                         1
+info level                       1
+generate pbm files               0
+------------------------------------------
+
+---------------- TIMINGS ----------------
+overall(elapsed)        0.00 sec
+overall(cpu)            0.00 sec
+select                  0.00 sec   3.1%
+symbolic prep.          0.00 sec   1.2%
+update                  0.00 sec  89.1%
+convert                 0.00 sec   1.7%
+linear algebra          0.00 sec   3.3%
+reduce gb               0.00 sec   0.0%
+-----------------------------------------
+
+---------- COMPUTATIONAL DATA -----------
+size of basis                    17
+#terms in basis                  39
+#pairs reduced                  372
+#GM criterion                 52278
+#redundant elements             308
+#rows reduced                   761
+#zero reductions                317
+max. matrix data                311 x 203 (4.039%)
+max. symbolic hash table size  2^11
+max. basis hash table size     2^16
+-----------------------------------------
+
+
+
+------------------------------------------------------------------------------------
+msolve overall time           0.01 sec (elapsed) /  0.01 sec (cpu)
+------------------------------------------------------------------------------------
+EXIT code=0 seconds=0.5 peak_rss_kib=224

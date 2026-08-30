@@ -1,8 +1,8 @@
-# Claims (Kourovka Notebook problem 16.95, R. C. Thompson): for every field F and A ∈ GL(n,F) there is a permutation matrix P with AP cyclic (minimal polynomial = characteristic polynomial).
+# Claims (Kourovka Notebook problem 16.95, J. G. Thompson): for every field F and A ∈ GL(n,F) there is a permutation matrix P with AP cyclic (minimal polynomial = characteristic polynomial).
 
 ## C1
 
-C1 [Lean, kernel-checked] n ≤ 3, every field: K1695.kourovka_16_95_n3 (and the n ≤ 2 cases). Strengthening (GC3): for n = 3 at least two column permutations make e1 a cyclic vector (K1695.goodCount3). verify.sh: lean.
+C1 [Lean, kernel-checked] n = 3, every field: K1695.kourovka_16_95_n3. Strengthening (GC3): at least two column permutations make e1 a cyclic vector (K1695.goodCount3). The cases n ≤ 2 are elementary and are not claimed as Lean declarations. verify.sh: lean.
 
 Evidence: `lean/K1695/CyclicToMinpoly.lean`, `lean/K1695/CyclicVectorThree.lean`, `lean/K1695/GoodCount3.lean`, and `lean/recorded_checks/round6_gc3lean_check.log`.
 
@@ -26,7 +26,7 @@ Evidence: bases under `certificates/rank1/`, source under `encoders/`, raw input
 
 ## C5
 
-C5 [Gröbner certificates, two independent encoders, two independent searches] n = 4, rank R = 2: some AP_σ is cyclic over every field of characteristic 0, 2, 3, 5, 7, 11, 13, 17, 19, 23 (case decomposition over the W-chart and six U-charts; every terminal ideal is the unit ideal). verify.sh: rank2-<p>.
+C5 [Gröbner certificates, two independent encoders, two independent searches] n = 4, rank R = 2: some AP_σ is cyclic over every field of characteristic 0, 2, 3, 5, 7, 11, 13, 17, 19, 23 (case decomposition over the W-chart and six U-charts; every terminal ideal is the unit ideal). Every listed characteristic has two complete families. For 17, 19, and 23 the K6-R2SPLIT-1723 family has representative-chart trees of 826/806/797 runs with 795/781/775 unit terminals; the same replay verifies completion of the second p = 13 family. verify.sh: rank2-<p>.
 
 Evidence: every recorded basis under `certificates/`, the DPLL states and node metadata under `certificates/trees/`, `data/SUMMARY.json`, and the indexed raw-input bundle.
 
@@ -41,5 +41,11 @@ Evidence: C3–C5 above and `REPRODUCE.md`; no stronger status is asserted here.
 C7 [refutations, explicit matrices with verifiers] the transposition-only rule (odd characteristic families), the potential Φ' = (kd, −ν) (n = 6 over F2), the neutral-then-ascent rule (n = 5 over F4), the face-matching lemma (transposition matrices). verify.sh: data.
 
 Evidence: `data/refutations/REFUTATIONS.json` and `data/refutations/verify_refutations.py`.
+
+## C7'
+
+C7' [exact integer content, computed] As of 2026-08-30 12:0x CDT, for 2,394 of the 4,694 characteristic-zero rank-two terminals the contraction generator d_S = generator of I_S ∩ Z has been computed exactly by a strong Gröbner basis over Z (Singular 4.3.2): d_S = 1 for 1,383 terminals, d_S = 2 for 1,006 terminals, and d_S = 3 for 5 terminals. Every prime dividing a computed d_S lies in {2,3}. Hence on those resolved terminals the certificate is valid in every characteristic; the explicit exceptional set restricted to them is contained in {2,3}, both closed directly.
+
+Evidence: `scripts/round6_zstd_one.py`, `scripts/zlift_one_v2.py`, `scripts/zlift_one_v3.py`, `data/zstd/results.tsv`, and `data/zstd/run8_results.tsv`.
 
 OPEN: n ≥ 5 in every characteristic; n = 4 for the finitely many unknown exceptional primes.

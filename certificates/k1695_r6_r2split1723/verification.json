@@ -1,0 +1,450 @@
+{
+  "characteristics": [
+    17,
+    19,
+    23
+  ],
+  "symmetry_orbits": [
+    [
+      0
+    ],
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5
+    ]
+  ],
+  "representatives": [
+    0,
+    1,
+    5
+  ],
+  "packaging_note": "State and control paths were normalized to release-relative form; the SHA-256 fields below refer to the packaged files.",
+  "legacy_p13_chart5": {
+    "characteristic": 13,
+    "u_chart": 5,
+    "state_sha256": "0af10e601eee8ec99e3af67d5f10843ace279eb68b15fb702d1df653501c655d",
+    "tested_nodes": 797,
+    "status_counts": {
+      "UNIT": 775,
+      "NONUNIT": 22
+    },
+    "candidate_leaves": 0,
+    "max_depth": 10,
+    "max_seconds": 48.038,
+    "max_peak_rss_kib": 1042928,
+    "verified": true,
+    "control": {
+      "sha256": "29bc2e10cb3461d4cbe71707f3ed98f839cd83e0315f34aa50970496882d5068",
+      "status": "NONUNIT",
+      "case_keys": [
+        "1:E_1",
+        "2:E_1",
+        "3:E_1",
+        "6:E_1",
+        "7:E_1",
+        "8:E_1",
+        "10:E_1",
+        "11:E_1",
+        "14:E_1",
+        "15:E_1",
+        "16:E_1",
+        "17:E_1",
+        "18:E_1",
+        "19:E_1",
+        "20:E_1",
+        "21:E_1",
+        "22:E_1"
+      ],
+      "verified": true
+    }
+  },
+  "primes": [
+    {
+      "characteristic": 17,
+      "inventory": {
+        "sha256": "323eb3d122bb9b1728b56e250d2a7e30615acb50e3da76e7dd52e779862a5880",
+        "permutations": 23,
+        "verified": true
+      },
+      "charts": [
+        {
+          "characteristic": 17,
+          "u_chart": 0,
+          "state_sha256": "c8bf10482cc931b6fc1193c5e9635b76cd24283a5a24be16763cfdf244bfe8f3",
+          "tested_nodes": 826,
+          "status_counts": {
+            "UNIT": 795,
+            "NONUNIT": 31
+          },
+          "candidate_leaves": 0,
+          "max_depth": 10,
+          "max_seconds": 49.919,
+          "max_peak_rss_kib": 1120928,
+          "verified": true,
+          "control": {
+            "sha256": "e2ab0eed3fa4ccb90b9c8e1f9b07707e6a34306dc58e66b02cd91bb462bdf6d1",
+            "status": "NONUNIT",
+            "case_keys": [
+              "1:E_1",
+              "2:E_1",
+              "3:E_1",
+              "6:E_1",
+              "7:E_1",
+              "8:E_1",
+              "10:E_1",
+              "11:E_1",
+              "14:E_1",
+              "15:E_1",
+              "16:E_1",
+              "17:E_1",
+              "18:E_1",
+              "19:E_1",
+              "20:E_1",
+              "21:E_1",
+              "22:E_1"
+            ],
+            "verified": true
+          }
+        },
+        {
+          "characteristic": 17,
+          "u_chart": 1,
+          "state_sha256": "b1de380b1cda20cd9bd5df7197ee6bb9cecd671290d0682891c2fac30136a947",
+          "tested_nodes": 806,
+          "status_counts": {
+            "UNIT": 781,
+            "NONUNIT": 25
+          },
+          "candidate_leaves": 0,
+          "max_depth": 10,
+          "max_seconds": 13.682,
+          "max_peak_rss_kib": 976848,
+          "verified": true,
+          "control": {
+            "sha256": "2b6093697b9dcfca3bf384895919e28d33182b499be815d1106022583c486cdc",
+            "status": "NONUNIT",
+            "case_keys": [
+              "1:E_1",
+              "2:E_1",
+              "3:E_1",
+              "6:E_1",
+              "7:E_1",
+              "8:E_1",
+              "10:E_1",
+              "11:E_1",
+              "14:E_1",
+              "15:E_1",
+              "16:E_1",
+              "17:E_1",
+              "18:E_1",
+              "19:E_1",
+              "20:E_1",
+              "21:E_1",
+              "22:E_1"
+            ],
+            "verified": true
+          }
+        },
+        {
+          "characteristic": 17,
+          "u_chart": 5,
+          "state_sha256": "43c35b7421f3dbd8482bc7cca9371801ff1065c2cdabcb9b24413cf8a1094f0e",
+          "tested_nodes": 797,
+          "status_counts": {
+            "UNIT": 775,
+            "NONUNIT": 22
+          },
+          "candidate_leaves": 0,
+          "max_depth": 10,
+          "max_seconds": 9.398,
+          "max_peak_rss_kib": 1039744,
+          "verified": true,
+          "control": {
+            "sha256": "32c3735e71583176481a1ed205e9b783c4e89f67ed9a8f76289216c79097ea3f",
+            "status": "NONUNIT",
+            "case_keys": [
+              "1:E_1",
+              "2:E_1",
+              "3:E_1",
+              "6:E_1",
+              "7:E_1",
+              "8:E_1",
+              "10:E_1",
+              "11:E_1",
+              "14:E_1",
+              "15:E_1",
+              "16:E_1",
+              "17:E_1",
+              "18:E_1",
+              "19:E_1",
+              "20:E_1",
+              "21:E_1",
+              "22:E_1"
+            ],
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "characteristic": 19,
+      "inventory": {
+        "sha256": "3fabc2dbe34bfae50981ebe14ebdb77912d387990f6f9da1bf8c3c04e6c074da",
+        "permutations": 23,
+        "verified": true
+      },
+      "charts": [
+        {
+          "characteristic": 19,
+          "u_chart": 0,
+          "state_sha256": "b2cb38ca40aeedd8b0d89c11858834aeda30323cbbddbb717f0b57a3203dfbc4",
+          "tested_nodes": 826,
+          "status_counts": {
+            "UNIT": 795,
+            "NONUNIT": 31
+          },
+          "candidate_leaves": 0,
+          "max_depth": 10,
+          "max_seconds": 11.955,
+          "max_peak_rss_kib": 1198976,
+          "verified": true,
+          "control": {
+            "sha256": "a47fb65c1364097ba4cd2d2425f83a461f22c9a3123e8491e35ba1f77d7693a1",
+            "status": "NONUNIT",
+            "case_keys": [
+              "1:E_1",
+              "2:E_1",
+              "3:E_1",
+              "6:E_1",
+              "7:E_1",
+              "8:E_1",
+              "10:E_1",
+              "11:E_1",
+              "14:E_1",
+              "15:E_1",
+              "16:E_1",
+              "17:E_1",
+              "18:E_1",
+              "19:E_1",
+              "20:E_1",
+              "21:E_1",
+              "22:E_1"
+            ],
+            "verified": true
+          }
+        },
+        {
+          "characteristic": 19,
+          "u_chart": 1,
+          "state_sha256": "5ff7f7bd67d6c2121d9388497645ce2ac47280a28b8f99bda7fc96b088fe4eec",
+          "tested_nodes": 806,
+          "status_counts": {
+            "UNIT": 781,
+            "NONUNIT": 25
+          },
+          "candidate_leaves": 0,
+          "max_depth": 10,
+          "max_seconds": 18.344,
+          "max_peak_rss_kib": 1152544,
+          "verified": true,
+          "control": {
+            "sha256": "d95b4f003b082b7ed67bab6f25486e170c06ffae9e7a1e40f5765474b3cfb203",
+            "status": "NONUNIT",
+            "case_keys": [
+              "1:E_1",
+              "2:E_1",
+              "3:E_1",
+              "6:E_1",
+              "7:E_1",
+              "8:E_1",
+              "10:E_1",
+              "11:E_1",
+              "14:E_1",
+              "15:E_1",
+              "16:E_1",
+              "17:E_1",
+              "18:E_1",
+              "19:E_1",
+              "20:E_1",
+              "21:E_1",
+              "22:E_1"
+            ],
+            "verified": true
+          }
+        },
+        {
+          "characteristic": 19,
+          "u_chart": 5,
+          "state_sha256": "426c085df82bfb06f30ae4a36ca5c61a7be523a28300ab3cef35cea4af129d9e",
+          "tested_nodes": 797,
+          "status_counts": {
+            "UNIT": 775,
+            "NONUNIT": 22
+          },
+          "candidate_leaves": 0,
+          "max_depth": 10,
+          "max_seconds": 9.404,
+          "max_peak_rss_kib": 1087280,
+          "verified": true,
+          "control": {
+            "sha256": "c1c0f6486d5d156a77ef850c1b8ea6ec52cdcfa714239b5adf4d524f0c72e1bb",
+            "status": "NONUNIT",
+            "case_keys": [
+              "1:E_1",
+              "2:E_1",
+              "3:E_1",
+              "6:E_1",
+              "7:E_1",
+              "8:E_1",
+              "10:E_1",
+              "11:E_1",
+              "14:E_1",
+              "15:E_1",
+              "16:E_1",
+              "17:E_1",
+              "18:E_1",
+              "19:E_1",
+              "20:E_1",
+              "21:E_1",
+              "22:E_1"
+            ],
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "characteristic": 23,
+      "inventory": {
+        "sha256": "e994592d3eabbae128b86bdafeb5735dda1d1f0b982c796a603d64f174fb8906",
+        "permutations": 23,
+        "verified": true
+      },
+      "charts": [
+        {
+          "characteristic": 23,
+          "u_chart": 0,
+          "state_sha256": "1ac42ff84a9e61584923aea539f71afce693aa9a8e8e259e37a8b3a09cefe37a",
+          "tested_nodes": 826,
+          "status_counts": {
+            "UNIT": 795,
+            "NONUNIT": 31
+          },
+          "candidate_leaves": 0,
+          "max_depth": 10,
+          "max_seconds": 15.148,
+          "max_peak_rss_kib": 1189648,
+          "verified": true,
+          "control": {
+            "sha256": "7934bd8e322ce726ea98746c75b5cccad0b84b5fb20d6a27b982064be1546843",
+            "status": "NONUNIT",
+            "case_keys": [
+              "1:E_1",
+              "2:E_1",
+              "3:E_1",
+              "6:E_1",
+              "7:E_1",
+              "8:E_1",
+              "10:E_1",
+              "11:E_1",
+              "14:E_1",
+              "15:E_1",
+              "16:E_1",
+              "17:E_1",
+              "18:E_1",
+              "19:E_1",
+              "20:E_1",
+              "21:E_1",
+              "22:E_1"
+            ],
+            "verified": true
+          }
+        },
+        {
+          "characteristic": 23,
+          "u_chart": 1,
+          "state_sha256": "9cb5dc12fb1456f1e69fc5afa8fe864945b2ee169832544b3180b0c00a02c888",
+          "tested_nodes": 806,
+          "status_counts": {
+            "UNIT": 781,
+            "NONUNIT": 25
+          },
+          "candidate_leaves": 0,
+          "max_depth": 10,
+          "max_seconds": 11.92,
+          "max_peak_rss_kib": 1191088,
+          "verified": true,
+          "control": {
+            "sha256": "340115f0eaee9f6a292e5a96a0d888fb32a6765809136761ebe99bb8c3ae5c10",
+            "status": "NONUNIT",
+            "case_keys": [
+              "1:E_1",
+              "2:E_1",
+              "3:E_1",
+              "6:E_1",
+              "7:E_1",
+              "8:E_1",
+              "10:E_1",
+              "11:E_1",
+              "14:E_1",
+              "15:E_1",
+              "16:E_1",
+              "17:E_1",
+              "18:E_1",
+              "19:E_1",
+              "20:E_1",
+              "21:E_1",
+              "22:E_1"
+            ],
+            "verified": true
+          }
+        },
+        {
+          "characteristic": 23,
+          "u_chart": 5,
+          "state_sha256": "08622a6caf2f3890696427cf390bea823d922a82e90c608f4d72ac53f463bc40",
+          "tested_nodes": 797,
+          "status_counts": {
+            "UNIT": 775,
+            "NONUNIT": 22
+          },
+          "candidate_leaves": 0,
+          "max_depth": 10,
+          "max_seconds": 7.803,
+          "max_peak_rss_kib": 1044528,
+          "verified": true,
+          "control": {
+            "sha256": "50ad1c322e66a198b612ecd0bf21a908714c692ac3beb3546258af48f02a3a21",
+            "status": "NONUNIT",
+            "case_keys": [
+              "1:E_1",
+              "2:E_1",
+              "3:E_1",
+              "6:E_1",
+              "7:E_1",
+              "8:E_1",
+              "10:E_1",
+              "11:E_1",
+              "14:E_1",
+              "15:E_1",
+              "16:E_1",
+              "17:E_1",
+              "18:E_1",
+              "19:E_1",
+              "20:E_1",
+              "21:E_1",
+              "22:E_1"
+            ],
+            "verified": true
+          }
+        }
+      ]
+    }
+  ],
+  "verified": true
+}

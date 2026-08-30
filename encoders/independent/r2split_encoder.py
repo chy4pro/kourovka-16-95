@@ -152,7 +152,34 @@ def eigen_roots(characteristic: int, ctype: tuple[int, ...]) -> list[tuple[str, 
         if 4 in ctype:
             roots += [("5", sp.Integer(5)), ("8", sp.Integer(8))]
         return roots
-    raise ValueError("supported characteristics are 0, 2, 3, 5, 7, 11, and 13")
+    if characteristic == 17:
+        roots = [("1", sp.Integer(1))]
+        if any(k % 2 == 0 for k in ctype):
+            roots.append(("m1", sp.Integer(-1)))
+        if 3 in ctype:
+            roots += [("omega", OMEGA), ("omega2", OMEGA**2)]
+        if 4 in ctype:
+            roots += [("4", sp.Integer(4)), ("13", sp.Integer(13))]
+        return roots
+    if characteristic == 19:
+        roots = [("1", sp.Integer(1))]
+        if any(k % 2 == 0 for k in ctype):
+            roots.append(("m1", sp.Integer(-1)))
+        if 3 in ctype:
+            roots += [("7", sp.Integer(7)), ("11", sp.Integer(11))]
+        if 4 in ctype:
+            roots += [("i", II), ("mi", -II)]
+        return roots
+    if characteristic == 23:
+        roots = [("1", sp.Integer(1))]
+        if any(k % 2 == 0 for k in ctype):
+            roots.append(("m1", sp.Integer(-1)))
+        if 3 in ctype:
+            roots += [("omega", OMEGA), ("omega2", OMEGA**2)]
+        if 4 in ctype:
+            roots += [("i", II), ("mi", -II)]
+        return roots
+    raise ValueError("supported characteristics are 0, 2, 3, 5, 7, 11, 13, 17, 19, and 23")
 
 
 def case_list(characteristic: int, perm_index: int) -> list[Case]:
@@ -291,7 +318,10 @@ def inventory(characteristic: int) -> dict:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--characteristic", "-p", type=int, required=True, choices=(0, 2, 3, 5, 7, 11, 13))
+    parser.add_argument(
+        "--characteristic", "-p", type=int, required=True,
+        choices=(0, 2, 3, 5, 7, 11, 13, 17, 19, 23),
+    )
     parser.add_argument("--inventory", action="store_true")
     parser.add_argument("--case", action="append", default=[], help="INDEX:LABEL, e.g. 0:E_1 or 3:N")
     parser.add_argument("--u-chart", type=int, choices=range(6), help="saturate by this U 2x2 row minor")

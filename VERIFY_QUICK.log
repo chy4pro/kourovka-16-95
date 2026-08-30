@@ -1,7 +1,7 @@
 PASS manifest
 PASS C1-C3 recorded Lean kernel audits
-PASS C4-C5 recorded bases (54727 files)
-PASS msolve 0.10.1 tiny unit basis
+PASS C4-C5 recorded bases (54739 files)
+PASS p=17,19,23 byte-identical regeneration and capped msolve samples
 PASS C7 transposition-only GF(7): six bad, two double transpositions good
 PASS C7 potential: kd=5 and neutral swaps (15),(25),(35)
 PASS C7 neutral-then-ascent: complete GF(4) profile and no such path
