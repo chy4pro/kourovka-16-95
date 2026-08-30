@@ -4,5 +4,15 @@ Recorded successful kernel checks
 goodCount3: propext, Classical.choice, Quot.sound (12.5 s)
 stratumB_minpoly: propext, Classical.choice, Quot.sound (7.8 s audit)
 minpoly_eq_charpoly_of_rank_ge: propext, Classical.choice, Quot.sound (127.5 s audit)
+krylov_det_feedback: propext, Classical.choice, Quot.sound
+krylov_reduce_of_zero: propext, Classical.choice, Quot.sound
 
-The verbatim wrapper outputs are in recorded_checks/. Each records EXIT code=0.
+The verbatim wrapper outputs for the first three entries are in
+recorded_checks/. Each records EXIT code=0.
+
+Recorded DeflatedFamilies build evidence:
+Build completed successfully (8728 jobs).
+Wall time: 3227.97 seconds (53 minutes 47.97 seconds).
+The line independently rebuilt K1695.DeflatedFamilies and ran its own axiom
+probe; both theorem lists again contained only propext, Classical.choice, and
+Quot.sound.

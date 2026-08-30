@@ -18,7 +18,7 @@ check_manifest() {
 }
 
 check_lean_record() {
-  test "$(find "$ROOT/lean/K1695" -name '*.lean' | wc -l | tr -d ' ')" = 11 || fail lean-source-count
+  test "$(find "$ROOT/lean/K1695" -name '*.lean' | wc -l | tr -d ' ')" = 12 || fail lean-source-count
   ! grep -R -n -E '(^|[^A-Za-z])(sorry|admit)([^A-Za-z]|$)' "$ROOT/lean/K1695" >/dev/null || fail lean-placeholders
   for log in "$ROOT"/lean/recorded_checks/*.log; do grep -q 'EXIT code=0' "$log" || fail lean-recorded-exit; done
   grep -q 'minpoly_eq_charpoly_of_rank_ge.*propext, Classical.choice, Quot.sound' "$ROOT/lean/recorded_checks/round6_lean10_axioms.log" || fail lean-axioms

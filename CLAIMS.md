@@ -54,7 +54,7 @@ C8 [Gröbner certificates, two independent encoder families] n = 5, rank-one str
 
 ## C9
 
-C9 [proved in the paper, hand-graded] Every n, every field, rank-one stratum A = λ(I + uwᵀ): if |supp(u)| ≤ 3 or |supp(w)| ≤ 3, or u (resp. w) is constant on supp(w)∖{i} (resp. supp(u)∖{i}) for some i in that support, then some AP_σ is cyclic. Proofs: the paper's section "Sparse and constant rank-one families in every dimension" (complete, self-contained); computational corroboration scripts/rank1_families/round6_r1alln_check.py (identity checks (3.1),(3.2),(3.3),(4.1),(4.2),(8.1) — PASS transcript included).
+C9 [proved in the paper, hand-graded] Every n, every field, rank-one stratum A = λ(I + uwᵀ): if |supp(u)| ≤ 3 or |supp(w)| ≤ 3, or u (resp. w) is constant on supp(w)∖{i} (resp. supp(u)∖{i}) for some i in that support, then some AP_σ is cyclic. Proofs: the paper's section "Sparse and constant rank-one families in every dimension" (complete, self-contained); computational corroboration scripts/rank1_families/round6_r1alln_check.py (identity checks (3.1),(3.2),(3.3),(4.1),(4.2),(8.1) — PASS transcript included). The two structural lemmas of the proof — the feedback invariance of Krylov determinants and the y_j = 0 dimension-reduction core — are additionally kernel-checked in Lean 4 (lean/K1695/DeflatedFamilies.lean, standard axioms only); the path identities and the constancy argument remain paper proofs.
 
 Evidence: `paper/ABSTRACT.md`, `scripts/rank1_families/round6_r1alln_check.py`, and `scripts/rank1_families/round6_r1alln_check.log`.
 

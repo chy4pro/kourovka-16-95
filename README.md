@@ -9,7 +9,7 @@ this revision has been pushed or published.
 
 ## Five-minute check
 
-Install msolve 0.10.1 and Python 3 with SymPy, then run:
+Install Python 3 and a C compiler, then run:
 
 ```sh
 ./verify.sh quick
@@ -17,10 +17,11 @@ Install msolve 0.10.1 and Python 3 with SymPy, then run:
 
 The quick target validates repository integrity, checks the recorded Lean
 audits and representative bases, checks the complete dimension-five rank-one
-inventory and finite audits, reruns its independent `p3.ms` once through the
-600-second/2,500,000-KiB wrapper, and independently verifies all four explicit
+inventory and finite audits, checks the every-dimension family package, runs
+its 256-point C99 spot check, and independently verifies all four explicit
 refutations. The ticket intentionally prohibited a Lean build during assembly;
 `./verify.sh lean-build` is the opt-in kernel rebuild.
+The two kernel-checked structural family lemmas are in `lean/K1695/DeflatedFamilies.lean`.
 
 ## Longer checks
 
