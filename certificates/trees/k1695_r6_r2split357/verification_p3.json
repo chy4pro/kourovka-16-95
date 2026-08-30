@@ -1,0 +1,99 @@
+{
+  "symmetry_orbits": [
+    [
+      0
+    ],
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5
+    ]
+  ],
+  "representatives": [
+    0,
+    1,
+    5
+  ],
+  "charts": [
+    {
+      "characteristic": 3,
+      "u_chart": 0,
+      "state_sha256": "5faed2639643213226d99c1481edd2d2df1d4ccdb6752d9db177cda191d2285c",
+      "tested_nodes": 757,
+      "status_counts": {
+        "UNIT": 747,
+        "NONUNIT": 10
+      },
+      "candidate_leaves": 0,
+      "max_depth": 10,
+      "verified": true,
+      "controls": [
+        {
+          "control": "all_trans_E1",
+          "status": "UNIT",
+          "verified": true
+        },
+        {
+          "control": "matrix_pattern",
+          "status": "NONUNIT",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "characteristic": 3,
+      "u_chart": 1,
+      "state_sha256": "1d589ab9560a20e650247cd36b18ad4465057f342f56d76e26297c1168c2a00d",
+      "tested_nodes": 752,
+      "status_counts": {
+        "UNIT": 744,
+        "NONUNIT": 8
+      },
+      "candidate_leaves": 0,
+      "max_depth": 10,
+      "verified": true,
+      "controls": [
+        {
+          "control": "all_trans_E1",
+          "status": "UNIT",
+          "verified": true
+        },
+        {
+          "control": "matrix_pattern",
+          "status": "NONUNIT",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "characteristic": 3,
+      "u_chart": 5,
+      "state_sha256": "cc96618a1e1e2637e518ac9cdb43a5d33f12c13d3a6346a81074eef112a462d9",
+      "tested_nodes": 763,
+      "status_counts": {
+        "UNIT": 751,
+        "NONUNIT": 12
+      },
+      "candidate_leaves": 0,
+      "max_depth": 10,
+      "verified": true,
+      "controls": [
+        {
+          "control": "all_trans_E1",
+          "status": "UNIT",
+          "verified": true
+        },
+        {
+          "control": "matrix_pattern",
+          "status": "NONUNIT",
+          "verified": true
+        }
+      ]
+    }
+  ],
+  "verified": true
+}

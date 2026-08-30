@@ -1,0 +1,21 @@
+#Reduced Groebner basis data
+#---
+#field characteristic: 3
+#variable order:       u11, u12, u21, u22, u31, u32, u41, u42, w31, w32, w41, w42, za, zu
+#monomial order:       graded reverse lexicographical
+#length of basis:      14 elements sorted by increasing leading monomials
+#---
+[1*zu^1+2,
+1*za^1+2,
+1*w42^1,
+1*w41^1+1,
+1*w32^1+1,
+1*w31^1,
+1*u41^1+2,
+1*u32^1+2,
+1*u31^1+2*u42^1+1,
+1*u22^1+1,
+1*u21^1+1*u42^1+2,
+1*u12^1+1*u42^1,
+1*u11^1+1,
+1*u42^2+2*u42^1]:

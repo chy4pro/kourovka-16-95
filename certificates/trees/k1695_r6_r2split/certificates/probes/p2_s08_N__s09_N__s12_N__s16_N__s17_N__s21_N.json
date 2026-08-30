@@ -1,0 +1,24 @@
+{
+  "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/probes/p2_s08_N__s09_N__s12_N__s16_N__s17_N__s21_N.ms",
+  "characteristic": 2,
+  "variables": 25,
+  "generators": 31,
+  "cases": [
+    "s08_2341:N",
+    "s09_2413:N",
+    "s12_3142:N",
+    "s16_3421:N",
+    "s17_4123:N",
+    "s21_4312:N"
+  ],
+  "tag": "s08_N__s09_N__s12_N__s16_N__s17_N__s21_N",
+  "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/probes/p2_s08_N__s09_N__s12_N__s16_N__s17_N__s21_N.gb",
+  "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/probes/p2_s08_N__s09_N__s12_N__s16_N__s17_N__s21_N.log",
+  "swap_used_mib_at_start": 6057.88,
+  "seconds": 19.798,
+  "wrapper_returncode": 0,
+  "child_returncode": null,
+  "capped": true,
+  "unit": false,
+  "status": "OPEN-due-to-load"
+}

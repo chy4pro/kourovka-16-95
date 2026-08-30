@@ -1,0 +1,30 @@
+{
+  "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split357/certificates/branches/p7_uc0__s00_N__s01_N__s04_E_m1__s05_N__s13_N__s20_N__s06_E_m1.ms",
+  "characteristic": 7,
+  "variables": 24,
+  "generators": 59,
+  "u_chart": 0,
+  "u_chart_rows": [
+    1,
+    2
+  ],
+  "cases": [
+    "s00_1243:N",
+    "s01_1324:N",
+    "s04_1432:E_m1",
+    "s05_2134:N",
+    "s13_3214:N",
+    "s20_4231:N",
+    "s06_2143:E_m1"
+  ],
+  "tag": "uc0__s00_N__s01_N__s04_E_m1__s05_N__s13_N__s20_N__s06_E_m1",
+  "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split357/certificates/branches/p7_uc0__s00_N__s01_N__s04_E_m1__s05_N__s13_N__s20_N__s06_E_m1.gb",
+  "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split357/certificates/branches/p7_uc0__s00_N__s01_N__s04_E_m1__s05_N__s13_N__s20_N__s06_E_m1.log",
+  "swap_used_mib_at_start": 5125.06,
+  "seconds": 0.55,
+  "wrapper_returncode": 0,
+  "child_returncode": 0,
+  "capped": false,
+  "unit": true,
+  "status": "UNIT"
+}

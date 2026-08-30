@@ -1,0 +1,6 @@
+/certificates/generated/
+/generated/
+/.lake/
+/lean/.lake/
+__pycache__/
+*.pyc

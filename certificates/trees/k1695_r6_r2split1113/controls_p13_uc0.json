@@ -1,0 +1,293 @@
+{
+  "characteristic": 13,
+  "u_chart": 0,
+  "matrix": [
+    [
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0
+    ]
+  ],
+  "U": [
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      0
+    ]
+  ],
+  "W": [
+    [
+      1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      -1,
+      0
+    ]
+  ],
+  "rank_U": 2,
+  "rank_W": 2,
+  "rank_A_minus_I": 2,
+  "u_chart_minor": 1,
+  "case_keys": [
+    "1:E_1",
+    "2:E_1",
+    "3:E_1",
+    "6:E_1",
+    "7:E_1",
+    "8:E_1",
+    "10:E_1",
+    "11:E_1",
+    "14:E_1",
+    "15:E_1",
+    "16:E_1",
+    "17:E_1",
+    "18:E_1",
+    "19:E_1",
+    "20:E_1",
+    "21:E_1",
+    "22:E_1"
+  ],
+  "classification": [
+    {
+      "permutation": 0,
+      "cyclic_rank": 4,
+      "rank_B_minus_I": 3,
+      "rank_B_plus_I": 3,
+      "classification": "CYCLIC"
+    },
+    {
+      "permutation": 1,
+      "cyclic_rank": 2,
+      "rank_B_minus_I": 1,
+      "rank_B_plus_I": 3,
+      "classification": "E_1"
+    },
+    {
+      "permutation": 2,
+      "cyclic_rank": 3,
+      "rank_B_minus_I": 2,
+      "rank_B_plus_I": 4,
+      "classification": "E_1"
+    },
+    {
+      "permutation": 3,
+      "cyclic_rank": 3,
+      "rank_B_minus_I": 2,
+      "rank_B_plus_I": 4,
+      "classification": "E_1"
+    },
+    {
+      "permutation": 4,
+      "cyclic_rank": 4,
+      "rank_B_minus_I": 3,
+      "rank_B_plus_I": 3,
+      "classification": "CYCLIC"
+    },
+    {
+      "permutation": 5,
+      "cyclic_rank": 4,
+      "rank_B_minus_I": 3,
+      "rank_B_plus_I": 3,
+      "classification": "CYCLIC"
+    },
+    {
+      "permutation": 6,
+      "cyclic_rank": 2,
+      "rank_B_minus_I": 2,
+      "rank_B_plus_I": 2,
+      "classification": "E_1"
+    },
+    {
+      "permutation": 7,
+      "cyclic_rank": 3,
+      "rank_B_minus_I": 2,
+      "rank_B_plus_I": 4,
+      "classification": "E_1"
+    },
+    {
+      "permutation": 8,
+      "cyclic_rank": 2,
+      "rank_B_minus_I": 1,
+      "rank_B_plus_I": 3,
+      "classification": "E_1"
+    },
+    {
+      "permutation": 9,
+      "cyclic_rank": 4,
+      "rank_B_minus_I": 3,
+      "rank_B_plus_I": 3,
+      "classification": "CYCLIC"
+    },
+    {
+      "permutation": 10,
+      "cyclic_rank": 3,
+      "rank_B_minus_I": 2,
+      "rank_B_plus_I": 4,
+      "classification": "E_1"
+    },
+    {
+      "permutation": 11,
+      "cyclic_rank": 3,
+      "rank_B_minus_I": 2,
+      "rank_B_plus_I": 4,
+      "classification": "E_1"
+    },
+    {
+      "permutation": 12,
+      "cyclic_rank": 4,
+      "rank_B_minus_I": 3,
+      "rank_B_plus_I": 3,
+      "classification": "CYCLIC"
+    },
+    {
+      "permutation": 13,
+      "cyclic_rank": 4,
+      "rank_B_minus_I": 3,
+      "rank_B_plus_I": 3,
+      "classification": "CYCLIC"
+    },
+    {
+      "permutation": 14,
+      "cyclic_rank": 3,
+      "rank_B_minus_I": 2,
+      "rank_B_plus_I": 4,
+      "classification": "E_1"
+    },
+    {
+      "permutation": 15,
+      "cyclic_rank": 2,
+      "rank_B_minus_I": 2,
+      "rank_B_plus_I": 2,
+      "classification": "E_1"
+    },
+    {
+      "permutation": 16,
+      "cyclic_rank": 2,
+      "rank_B_minus_I": 1,
+      "rank_B_plus_I": 3,
+      "classification": "E_1"
+    },
+    {
+      "permutation": 17,
+      "cyclic_rank": 2,
+      "rank_B_minus_I": 1,
+      "rank_B_plus_I": 3,
+      "classification": "E_1"
+    },
+    {
+      "permutation": 18,
+      "cyclic_rank": 3,
+      "rank_B_minus_I": 2,
+      "rank_B_plus_I": 4,
+      "classification": "E_1"
+    },
+    {
+      "permutation": 19,
+      "cyclic_rank": 3,
+      "rank_B_minus_I": 2,
+      "rank_B_plus_I": 4,
+      "classification": "E_1"
+    },
+    {
+      "permutation": 20,
+      "cyclic_rank": 2,
+      "rank_B_minus_I": 1,
+      "rank_B_plus_I": 3,
+      "classification": "E_1"
+    },
+    {
+      "permutation": 21,
+      "cyclic_rank": 2,
+      "rank_B_minus_I": 1,
+      "rank_B_plus_I": 3,
+      "classification": "E_1"
+    },
+    {
+      "permutation": 22,
+      "cyclic_rank": 1,
+      "rank_B_minus_I": 0,
+      "rank_B_plus_I": 4,
+      "classification": "E_1"
+    }
+  ],
+  "result": {
+    "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split1113/certificates/controls/p13_uc0__s01_E_1__s02_E_1__s03_E_1__s06_E_1__s07_E_1__s08_E_1__s10_E_1__s11_E_1__s14_E_1__s15_E_1__s16_E_1__s17_E_1__s18_E_1__s19_E_1__s20_E_1__s21_E_1__s22_E_1.ms",
+    "characteristic": 13,
+    "variables": 14,
+    "generators": 270,
+    "u_chart": 0,
+    "u_chart_rows": [
+      1,
+      2
+    ],
+    "cases": [
+      "s01_1324:E_1",
+      "s02_1342:E_1",
+      "s03_1423:E_1",
+      "s06_2143:E_1",
+      "s07_2314:E_1",
+      "s08_2341:E_1",
+      "s10_2431:E_1",
+      "s11_3124:E_1",
+      "s14_3241:E_1",
+      "s15_3412:E_1",
+      "s16_3421:E_1",
+      "s17_4123:E_1",
+      "s18_4132:E_1",
+      "s19_4213:E_1",
+      "s20_4231:E_1",
+      "s21_4312:E_1",
+      "s22_4321:E_1"
+    ],
+    "tag": "uc0__s01_E_1__s02_E_1__s03_E_1__s06_E_1__s07_E_1__s08_E_1__s10_E_1__s11_E_1__s14_E_1__s15_E_1__s16_E_1__s17_E_1__s18_E_1__s19_E_1__s20_E_1__s21_E_1__s22_E_1",
+    "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split1113/certificates/controls/p13_uc0__s01_E_1__s02_E_1__s03_E_1__s06_E_1__s07_E_1__s08_E_1__s10_E_1__s11_E_1__s14_E_1__s15_E_1__s16_E_1__s17_E_1__s18_E_1__s19_E_1__s20_E_1__s21_E_1__s22_E_1.gb",
+    "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split1113/certificates/controls/p13_uc0__s01_E_1__s02_E_1__s03_E_1__s06_E_1__s07_E_1__s08_E_1__s10_E_1__s11_E_1__s14_E_1__s15_E_1__s16_E_1__s17_E_1__s18_E_1__s19_E_1__s20_E_1__s21_E_1__s22_E_1.log",
+    "swap_used_mib_at_start": 4170.75,
+    "seconds": 0.559,
+    "wrapper_returncode": 0,
+    "child_returncode": 0,
+    "capped": false,
+    "unit": false,
+    "status": "NONUNIT"
+  },
+  "passed": true
+}

@@ -1,0 +1,68 @@
+{
+  "characteristic": 2,
+  "charts": [
+    {
+      "u_chart": 0,
+      "runs": 75,
+      "statuses": {
+        "UNIT": 69,
+        "NONUNIT": 6
+      },
+      "unit_bases_checked": 69,
+      "known_core_basis_checked": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/probes/p2_uc0__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_E_1.gb",
+      "terminal_unit_leaves": 69,
+      "known_core_prunes": 1,
+      "max_seconds": 6.796,
+      "max_swap_used_mib_at_start": 8976.19
+    },
+    {
+      "u_chart": 1,
+      "runs": 89,
+      "statuses": {
+        "UNIT": 76,
+        "NONUNIT": 13
+      },
+      "unit_bases_checked": 76,
+      "known_core_basis_checked": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/probes/p2_uc1__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_E_1.gb",
+      "terminal_unit_leaves": 76,
+      "known_core_prunes": 1,
+      "max_seconds": 4.693,
+      "max_swap_used_mib_at_start": 6947.44
+    },
+    {
+      "u_chart": 5,
+      "runs": 91,
+      "statuses": {
+        "NONUNIT": 14,
+        "UNIT": 77
+      },
+      "unit_bases_checked": 77,
+      "known_core_basis_checked": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/probes/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_E_1.gb",
+      "terminal_unit_leaves": 77,
+      "known_core_prunes": 1,
+      "max_seconds": 5.74,
+      "max_swap_used_mib_at_start": 6547.38
+    }
+  ],
+  "negative_control": {
+    "cases": 17,
+    "generators_evaluated": 260,
+    "all_zero_at_explicit_gf2_point": true,
+    "msolve_basis_is_nonunit": true
+  },
+  "symmetry_orbits_of_u_charts": {
+    "same": [
+      0
+    ],
+    "one_common_row": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "disjoint": [
+      5
+    ]
+  },
+  "verified": true
+}

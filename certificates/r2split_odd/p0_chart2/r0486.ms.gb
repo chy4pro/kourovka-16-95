@@ -1,0 +1,31 @@
+#Reduced Groebner basis data
+#---
+#field characteristic: 0
+#variable order:       u11, u12, u21, u22, u31, u32, u41, u42, w31, w32, w41, w42, za, zu, t0, zn0
+#monomial order:       graded reverse lexicographical
+#length of basis:      24 elements sorted by increasing leading monomials
+#---
+[w42, 
+w41, 
+w32+1, 
+w31+1, 
+u41-u42, 
+u32, 
+u31, 
+2*u22+u42-t0+1, 
+2*u21+u42+t0-1, 
+2*u12+u42+t0-1, 
+2*u11+u42-t0+1, 
+24*zu*t0+384*u42*zn0+128*t0*zn0+243*u42-40*zu+81*t0-128*zn0-27, 
+3*u42*t0+t0^2+u42-1, 
+142*za*zu-72*za*t0+1152*u42*zn0-320*za*zn0+624*t0*zn0+729*u42-178*za-10*zu+243*t0-304*zn0-81, 
+72*u42*zu-384*u42*zn0-64*t0*zn0-243*u42+32*zu-81*t0+64*zn0+27, 
+639*u42*za-387*za*t0+9600*u42*zn0-1152*za*zn0+1792*t0*zn0+6075*u42-1791*za-320*zu+2025*t0-640*zn0-675, 
+327168*za*zn0^2-508928*t0*zn0^2-85200*zu^2+133128*za*t0-2130048*u42*zn0+720900*za*zn0-249920*zu*zn0-378456*t0*zn0+181760*zn0^2-1347921*u42+393732*za+83100*zu-449307*t0+1042908*zn0+149769, 
+128*u42*zn0^2-4*zu^2+81*u42*zn0-16*zu*zn0+27*t0*zn0+27*zn0, 
+3*t0^2*zn0-2*t0*zn0+zu-zn0, 
+568*za*t0*zn0-120*za*t0+1920*u42*zn0-344*za*zn0+472*t0*zn0+1215*u42-344*za-64*zu+405*t0-696*zn0-135, 
+1152*u42^2*zn0+729*u42^2-81*t0^2-768*u42*zn0-128*t0*zn0-324*u42+64*zu-54*t0+128*zn0+171, 
+639*za*t0^2+2304*za*t0-9600*u42*zn0+1152*za*zn0-1792*t0*zn0-6075*u42+1152*za+320*zu-2025*t0+640*zn0-1242, 
+256*t0*zn0^3-9*zu^3+12*zu^2*zn0+64*zu*zn0^2-162*t0*zn0^2-256*zn0^3+81*zu*zn0-270*zn0^2, 
+zu^4+4*zu^3*zn0-18*zu^2*zn0-24*zu*zn0^2+128*zn0^3+81*zn0^2]:

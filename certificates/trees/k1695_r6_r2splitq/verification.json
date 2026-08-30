@@ -1,0 +1,94 @@
+{
+  "characteristic": 0,
+  "symmetry_orbits": [
+    [
+      0
+    ],
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5
+    ]
+  ],
+  "representatives": [
+    0,
+    1,
+    5
+  ],
+  "charts": [
+    {
+      "u_chart": 0,
+      "state_sha256": "84f0f1c81b162a558a6fa58c42df9211396b827274315466f308cfcbede69b23",
+      "tested_nodes": 826,
+      "status_counts": {
+        "UNIT": 795,
+        "NONUNIT": 31
+      },
+      "candidate_leaves": 0,
+      "max_depth": 10,
+      "verified": true,
+      "control": {
+        "status": "NONUNIT",
+        "case_keys": [
+          "1:E_1",
+          "20:E_1",
+          "6:E_1",
+          "15:E_1",
+          "22:E_1"
+        ],
+        "verified": true
+      }
+    },
+    {
+      "u_chart": 1,
+      "state_sha256": "337844ea62cc33c8d41f52f9acd5541b527f92f30c391550e4d402a2419b871a",
+      "tested_nodes": 806,
+      "status_counts": {
+        "UNIT": 781,
+        "NONUNIT": 25
+      },
+      "candidate_leaves": 0,
+      "max_depth": 10,
+      "verified": true,
+      "control": {
+        "status": "NONUNIT",
+        "case_keys": [
+          "1:E_1",
+          "20:E_1",
+          "6:E_1",
+          "15:E_1",
+          "22:E_1"
+        ],
+        "verified": true
+      }
+    },
+    {
+      "u_chart": 5,
+      "state_sha256": "e6c21cbc289618997e435ee1e60de4cabf062da424be5e02e3d0eca03568fe14",
+      "tested_nodes": 797,
+      "status_counts": {
+        "UNIT": 775,
+        "NONUNIT": 22
+      },
+      "candidate_leaves": 0,
+      "max_depth": 10,
+      "verified": true,
+      "control": {
+        "status": "NONUNIT",
+        "case_keys": [
+          "1:E_1",
+          "20:E_1",
+          "6:E_1",
+          "15:E_1",
+          "22:E_1"
+        ],
+        "verified": true
+      }
+    }
+  ],
+  "verified": true
+}

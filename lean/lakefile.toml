@@ -1,0 +1,19 @@
+name = "proofenv"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["Proofenv"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.34.0-rc1"
+
+[[lean_lib]]
+name = "Proofenv"
+roots = ["Proofenv", "K1695.TranspositionLemma", "K1695.CyclicVectorThree", "K1695.TranspositionLemmaFull", "K1695.CyclicToMinpoly", "K1695.StratumB", "K1695.RankCriterion", "K1695.StratumBAssembly", "K1695.RankToMinpoly", "K1695.StratumBMinpoly", "K1695.StratumBMinpolyGeneral"]

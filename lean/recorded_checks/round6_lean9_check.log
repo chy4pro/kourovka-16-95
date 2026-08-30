@@ -1,0 +1,7 @@
+START 2026-08-29T23:27:21
+CAP wall=1500s resident_memory=9000000KiB
+COMMAND lake env lean K1695/StratumBMinpolyAxioms.lean
+'K1695.stratumB_minpoly' depends on axioms: [propext, Classical.choice, Quot.sound]
+'K1695.minpoly_eq_charpoly_of_rank_ge_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'K1695.stratumB_rank_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+EXIT code=0 seconds=7.8 peak_rss_kib=6087584

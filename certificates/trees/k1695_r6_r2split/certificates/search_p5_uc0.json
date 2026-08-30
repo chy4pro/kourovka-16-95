@@ -1,0 +1,186 @@
+{
+  "characteristic": 5,
+  "u_chart": 0,
+  "start_depth": 6,
+  "permutation_order": [
+    0,
+    1,
+    4,
+    5,
+    13,
+    20,
+    6,
+    15,
+    22,
+    2,
+    3,
+    7,
+    10,
+    11,
+    14,
+    18,
+    19,
+    8,
+    9,
+    12,
+    16,
+    17,
+    21
+  ],
+  "runs": 1,
+  "invocation_runs": 1,
+  "closed_subtrees": 1,
+  "known_core_prunes": 0,
+  "complete_nonunit_leaves": 0,
+  "open_due_to_load": 0,
+  "pending_nodes": 12,
+  "blocked_reason": null,
+  "exhaustive": false,
+  "results": [
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p5_uc0__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_E_1.ms",
+      "characteristic": 5,
+      "variables": 14,
+      "generators": 76,
+      "u_chart": 0,
+      "u_chart_rows": [
+        1,
+        2
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc0__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p5_uc0__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p5_uc0__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_E_1.log",
+      "swap_used_mib_at_start": 5986.69,
+      "seconds": 0.539,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    }
+  ],
+  "pending": [
+    {
+      "depth": 1,
+      "cases": [
+        "s00_1243:N"
+      ],
+      "needs_test": false
+    },
+    {
+      "depth": 1,
+      "cases": [
+        "s00_1243:E_m1"
+      ],
+      "needs_test": false
+    },
+    {
+      "depth": 2,
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N"
+      ],
+      "needs_test": false
+    },
+    {
+      "depth": 2,
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_m1"
+      ],
+      "needs_test": false
+    },
+    {
+      "depth": 3,
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:N"
+      ],
+      "needs_test": false
+    },
+    {
+      "depth": 3,
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_m1"
+      ],
+      "needs_test": false
+    },
+    {
+      "depth": 4,
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:N"
+      ],
+      "needs_test": false
+    },
+    {
+      "depth": 4,
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_m1"
+      ],
+      "needs_test": false
+    },
+    {
+      "depth": 5,
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:N"
+      ],
+      "needs_test": false
+    },
+    {
+      "depth": 5,
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_m1"
+      ],
+      "needs_test": false
+    },
+    {
+      "depth": 6,
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:N"
+      ],
+      "needs_test": true
+    },
+    {
+      "depth": 6,
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:E_m1"
+      ],
+      "needs_test": true
+    }
+  ]
+}

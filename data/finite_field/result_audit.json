@@ -1,0 +1,98 @@
+{
+  "all_recorded_equality_cases_in_conjectured_families": true,
+  "controls": "PASS",
+  "gf7_distinct_rank_le_2_tested": 3000000,
+  "gf7_rank2_minimum_g": 10,
+  "gf9_prior_rank2_distinct_tested": 1000000,
+  "gf9_prior_rank2_minimum_g": 12,
+  "gf9_rank1_distinct_tested": 1000000,
+  "results": {
+    "f2": {
+      "families": {
+        "scalar-permutation": 24,
+        "two-support": 144
+      },
+      "field": "GF(2)",
+      "minimizers": 168,
+      "rank_A_minus_I": {
+        "0": 1,
+        "1": 24,
+        "2": 101,
+        "3": 42
+      },
+      "table": "F2_MINIMIZERS.tsv"
+    },
+    "f3": {
+      "families": {
+        "scalar-permutation": 21,
+        "two-support": 216
+      },
+      "field": "GF(3)",
+      "minimizers": 237,
+      "rank_A_minus_I": {
+        "0": 1,
+        "1": 42,
+        "2": 194
+      },
+      "table": "F3_MINIMIZERS.tsv"
+    },
+    "f4": {
+      "families": {
+        "scalar-permutation": 1,
+        "two-support": 3
+      },
+      "field": "GF(4)",
+      "minimizers": 4,
+      "rank_A_minus_I": {
+        "2": 4
+      },
+      "table": "F4_MINIMIZERS.tsv"
+    },
+    "f5": {
+      "families": {
+        "two-support": 3
+      },
+      "field": "GF(5)",
+      "minimizers": 3,
+      "rank_A_minus_I": {
+        "2": 3
+      },
+      "table": "F5_MINIMIZERS.tsv"
+    },
+    "f7rank1": {
+      "families": {
+        "dense-I+gamma-J": 2,
+        "scalar-permutation": 7,
+        "two-support": 36
+      },
+      "field": "GF(7)",
+      "minimizers": 45,
+      "rank_A_minus_I": {
+        "0": 1,
+        "1": 44
+      },
+      "table": "F7RANK1_MINIMIZERS.tsv"
+    },
+    "f7rank2": {
+      "families": {},
+      "field": "GF(7)",
+      "minimizers": 0,
+      "rank_A_minus_I": {},
+      "table": "F7RANK2_MINIMIZERS.tsv"
+    },
+    "f9rank1": {
+      "families": {
+        "scalar-permutation": 3,
+        "two-support": 14
+      },
+      "field": "GF(9)",
+      "minimizers": 17,
+      "rank_A_minus_I": {
+        "0": 1,
+        "1": 16
+      },
+      "table": "F9RANK1_MINIMIZERS.tsv"
+    }
+  },
+  "status": "PASS"
+}

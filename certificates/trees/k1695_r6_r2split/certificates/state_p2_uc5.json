@@ -1,0 +1,2709 @@
+{
+  "characteristic": 2,
+  "u_chart": 5,
+  "start_depth": 6,
+  "permutation_order": [
+    0,
+    1,
+    4,
+    5,
+    13,
+    20,
+    6,
+    15,
+    22,
+    8,
+    9,
+    12,
+    16,
+    17,
+    21,
+    2,
+    3,
+    7,
+    10,
+    11,
+    14,
+    18,
+    19
+  ],
+  "runs": 91,
+  "invocation_runs": 91,
+  "closed_subtrees": 78,
+  "known_core_prunes": 1,
+  "complete_nonunit_leaves": 0,
+  "open_due_to_load": 0,
+  "pending_nodes": 0,
+  "blocked_reason": null,
+  "exhaustive": true,
+  "results": [
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N.ms",
+      "characteristic": 2,
+      "variables": 16,
+      "generators": 52,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N.log",
+      "swap_used_mib_at_start": 6547.38,
+      "seconds": 0.545,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": false,
+      "status": "NONUNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_E_1.ms",
+      "characteristic": 2,
+      "variables": 16,
+      "generators": 68,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:N",
+        "s06_2143:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_E_1.log",
+      "swap_used_mib_at_start": 6531.38,
+      "seconds": 0.548,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_N.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 57,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:N",
+        "s06_2143:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_N.log",
+      "swap_used_mib_at_start": 6531.38,
+      "seconds": 0.544,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 16,
+      "generators": 52,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1.log",
+      "swap_used_mib_at_start": 6531.38,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": false,
+      "status": "NONUNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1__s06_E_1.ms",
+      "characteristic": 2,
+      "variables": 16,
+      "generators": 68,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:E_1",
+        "s06_2143:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1__s06_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1__s06_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1__s06_E_1.log",
+      "swap_used_mib_at_start": 6531.38,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1__s06_N.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 57,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:E_1",
+        "s06_2143:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1__s06_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1__s06_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1__s06_N.log",
+      "swap_used_mib_at_start": 6531.38,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_N.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 48,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_N.log",
+      "swap_used_mib_at_start": 6531.38,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 16,
+      "generators": 52,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_E_1.log",
+      "swap_used_mib_at_start": 6531.38,
+      "seconds": 0.548,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_N.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 48,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_N.log",
+      "swap_used_mib_at_start": 6531.38,
+      "seconds": 0.543,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": false,
+      "status": "NONUNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_N__s06_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 64,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:N",
+        "s06_2143:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_N__s06_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_N__s06_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_N__s06_E_1.log",
+      "swap_used_mib_at_start": 6507.38,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_N__s06_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 53,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:N",
+        "s06_2143:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_N__s06_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_N__s06_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_N__s06_N.log",
+      "swap_used_mib_at_start": 6499.38,
+      "seconds": 0.545,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_N__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 48,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_N__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_N__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_N__s20_E_1.log",
+      "swap_used_mib_at_start": 6499.38,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": false,
+      "status": "NONUNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_N__s20_E_1__s06_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 64,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:E_1",
+        "s06_2143:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_N__s20_E_1__s06_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_N__s20_E_1__s06_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_N__s20_E_1__s06_E_1.log",
+      "swap_used_mib_at_start": 6499.38,
+      "seconds": 0.548,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_N__s20_E_1__s06_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 53,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:E_1",
+        "s06_2143:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_N__s20_E_1__s06_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_N__s20_E_1__s06_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_N__s20_E_1__s06_N.log",
+      "swap_used_mib_at_start": 6499.38,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_N__s20_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_N__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_N__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_E_1__s05_N__s13_N__s20_N.log",
+      "swap_used_mib_at_start": 6499.38,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 16,
+      "generators": 52,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1.log",
+      "swap_used_mib_at_start": 6499.38,
+      "seconds": 0.545,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": false,
+      "status": "NONUNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1__s06_E_1.ms",
+      "characteristic": 2,
+      "variables": 16,
+      "generators": 68,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:E_1",
+        "s06_2143:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1__s06_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1__s06_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1__s06_E_1.log",
+      "swap_used_mib_at_start": 6499.38,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1__s06_N.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 57,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:E_1",
+        "s06_2143:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1__s06_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1__s06_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1__s06_N.log",
+      "swap_used_mib_at_start": 6499.38,
+      "seconds": 0.546,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_N.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 48,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_N.log",
+      "swap_used_mib_at_start": 6483.38,
+      "seconds": 0.552,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_N__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 48,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_N__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_N__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_N__s20_E_1.log",
+      "swap_used_mib_at_start": 6467.38,
+      "seconds": 0.552,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": false,
+      "status": "NONUNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_N__s20_E_1__s06_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 64,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:E_1",
+        "s06_2143:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_N__s20_E_1__s06_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_N__s20_E_1__s06_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_N__s20_E_1__s06_E_1.log",
+      "swap_used_mib_at_start": 6332.0,
+      "seconds": 0.552,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_N__s20_E_1__s06_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 53,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:E_1",
+        "s06_2143:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_N__s20_E_1__s06_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_N__s20_E_1__s06_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_N__s20_E_1__s06_N.log",
+      "swap_used_mib_at_start": 6300.06,
+      "seconds": 0.549,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_N__s20_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_N__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_N__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_E_1__s13_N__s20_N.log",
+      "swap_used_mib_at_start": 6258.69,
+      "seconds": 0.552,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_E_1__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 48,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_E_1__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_E_1__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_E_1__s20_E_1.log",
+      "swap_used_mib_at_start": 6210.69,
+      "seconds": 0.56,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": false,
+      "status": "NONUNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_E_1__s20_E_1__s06_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 64,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:E_1",
+        "s06_2143:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_E_1__s20_E_1__s06_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_E_1__s20_E_1__s06_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_E_1__s20_E_1__s06_E_1.log",
+      "swap_used_mib_at_start": 6162.69,
+      "seconds": 0.549,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_E_1__s20_E_1__s06_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 53,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:E_1",
+        "s06_2143:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_E_1__s20_E_1__s06_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_E_1__s20_E_1__s06_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_E_1__s20_E_1__s06_N.log",
+      "swap_used_mib_at_start": 6154.69,
+      "seconds": 0.544,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_E_1__s20_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_E_1__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_E_1__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_E_1__s20_N.log",
+      "swap_used_mib_at_start": 6146.69,
+      "seconds": 0.545,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_N__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_N__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_N__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_N__s20_E_1.log",
+      "swap_used_mib_at_start": 6146.69,
+      "seconds": 0.548,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_N__s20_N.ms",
+      "characteristic": 2,
+      "variables": 22,
+      "generators": 40,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_N__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_N__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_E_1__s04_N__s05_N__s13_N__s20_N.log",
+      "swap_used_mib_at_start": 6146.69,
+      "seconds": 0.542,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 16,
+      "generators": 52,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1.log",
+      "swap_used_mib_at_start": 6146.69,
+      "seconds": 0.538,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": false,
+      "status": "NONUNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1__s06_E_1.ms",
+      "characteristic": 2,
+      "variables": 16,
+      "generators": 68,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:E_1",
+        "s06_2143:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1__s06_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1__s06_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1__s06_E_1.log",
+      "swap_used_mib_at_start": 6146.69,
+      "seconds": 0.541,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1__s06_N.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 57,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:E_1",
+        "s06_2143:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1__s06_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1__s06_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1__s06_N.log",
+      "swap_used_mib_at_start": 6146.69,
+      "seconds": 0.548,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_N.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 48,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_N.log",
+      "swap_used_mib_at_start": 6146.69,
+      "seconds": 0.539,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": false,
+      "status": "NONUNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 64,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:N",
+        "s06_2143:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_E_1.log",
+      "swap_used_mib_at_start": 6146.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 53,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:N",
+        "s06_2143:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_N.log",
+      "swap_used_mib_at_start": 6146.69,
+      "seconds": 0.548,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_N__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 48,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_N__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_N__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_N__s20_E_1.log",
+      "swap_used_mib_at_start": 6146.69,
+      "seconds": 0.538,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_N__s20_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_N__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_N__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_E_1__s13_N__s20_N.log",
+      "swap_used_mib_at_start": 6146.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_E_1__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 48,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_E_1__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_E_1__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_E_1__s20_E_1.log",
+      "swap_used_mib_at_start": 6146.69,
+      "seconds": 0.539,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": false,
+      "status": "NONUNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_E_1__s20_E_1__s06_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 64,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:E_1",
+        "s06_2143:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_E_1__s20_E_1__s06_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_E_1__s20_E_1__s06_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_E_1__s20_E_1__s06_E_1.log",
+      "swap_used_mib_at_start": 6146.69,
+      "seconds": 0.544,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_E_1__s20_E_1__s06_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 53,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:E_1",
+        "s06_2143:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_E_1__s20_E_1__s06_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_E_1__s20_E_1__s06_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_E_1__s20_E_1__s06_N.log",
+      "swap_used_mib_at_start": 6146.69,
+      "seconds": 0.542,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_E_1__s20_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_E_1__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_E_1__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_E_1__s20_N.log",
+      "swap_used_mib_at_start": 6146.69,
+      "seconds": 0.548,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_N__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_N__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_N__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_N__s20_E_1.log",
+      "swap_used_mib_at_start": 6146.69,
+      "seconds": 0.544,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_N__s20_N.ms",
+      "characteristic": 2,
+      "variables": 22,
+      "generators": 40,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_N__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_N__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_E_1__s05_N__s13_N__s20_N.log",
+      "swap_used_mib_at_start": 6146.69,
+      "seconds": 0.54,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_E_1__s13_E_1__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 48,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_N__s05_E_1__s13_E_1__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_E_1__s13_E_1__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_E_1__s13_E_1__s20_E_1.log",
+      "swap_used_mib_at_start": 6138.69,
+      "seconds": 0.541,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_E_1__s13_E_1__s20_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_N__s05_E_1__s13_E_1__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_E_1__s13_E_1__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_E_1__s13_E_1__s20_N.log",
+      "swap_used_mib_at_start": 6138.69,
+      "seconds": 0.542,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_E_1__s13_N__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_N__s05_E_1__s13_N__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_E_1__s13_N__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_E_1__s13_N__s20_E_1.log",
+      "swap_used_mib_at_start": 6138.69,
+      "seconds": 0.539,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_E_1__s13_N__s20_N.ms",
+      "characteristic": 2,
+      "variables": 22,
+      "generators": 40,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_N__s05_E_1__s13_N__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_E_1__s13_N__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_E_1__s13_N__s20_N.log",
+      "swap_used_mib_at_start": 6138.69,
+      "seconds": 0.539,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_N__s13_E_1__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_N__s05_N__s13_E_1__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_N__s13_E_1__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_N__s13_E_1__s20_E_1.log",
+      "swap_used_mib_at_start": 6138.69,
+      "seconds": 0.548,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_N__s13_E_1__s20_N.ms",
+      "characteristic": 2,
+      "variables": 22,
+      "generators": 40,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_N__s05_N__s13_E_1__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_N__s13_E_1__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_N__s13_E_1__s20_N.log",
+      "swap_used_mib_at_start": 6138.69,
+      "seconds": 0.548,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_N__s13_N__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 22,
+      "generators": 40,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_N__s05_N__s13_N__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_N__s13_N__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_N__s13_N__s20_E_1.log",
+      "swap_used_mib_at_start": 6138.69,
+      "seconds": 0.538,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_N__s13_N__s20_N.ms",
+      "characteristic": 2,
+      "variables": 24,
+      "generators": 36,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:E_1",
+        "s01_1324:N",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_E_1__s01_N__s04_N__s05_N__s13_N__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_N__s13_N__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_E_1__s01_N__s04_N__s05_N__s13_N__s20_N.log",
+      "swap_used_mib_at_start": 6138.69,
+      "seconds": 1.066,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 16,
+      "generators": 52,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_E_1.log",
+      "swap_used_mib_at_start": 6138.69,
+      "seconds": 0.54,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 48,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N.log",
+      "swap_used_mib_at_start": 6138.69,
+      "seconds": 0.542,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": false,
+      "status": "NONUNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 64,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:N",
+        "s06_2143:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_E_1.log",
+      "swap_used_mib_at_start": 6138.69,
+      "seconds": 0.539,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 53,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:N",
+        "s06_2143:N"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_E_1__s20_N__s06_N.log",
+      "swap_used_mib_at_start": 6138.69,
+      "seconds": 0.538,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 48,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1.log",
+      "swap_used_mib_at_start": 6138.69,
+      "seconds": 0.538,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": false,
+      "status": "NONUNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1__s06_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 64,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:E_1",
+        "s06_2143:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1__s06_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1__s06_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1__s06_E_1.log",
+      "swap_used_mib_at_start": 6130.69,
+      "seconds": 0.546,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1__s06_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 53,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:E_1",
+        "s06_2143:N"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1__s06_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1__s06_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_E_1__s06_N.log",
+      "swap_used_mib_at_start": 6130.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_E_1__s13_N__s20_N.log",
+      "swap_used_mib_at_start": 6130.69,
+      "seconds": 0.55,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 48,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_E_1.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_N__s13_E_1__s20_N.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_N__s13_N__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_E_1__s05_N__s13_N__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_N__s13_N__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_N__s13_N__s20_E_1.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_N__s13_N__s20_N.ms",
+      "characteristic": 2,
+      "variables": 22,
+      "generators": 40,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_E_1__s05_N__s13_N__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_N__s13_N__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_E_1__s05_N__s13_N__s20_N.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 3.651,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 48,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.546,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": false,
+      "status": "NONUNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1__s06_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 64,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:E_1",
+        "s06_2143:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1__s06_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1__s06_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1__s06_E_1.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1__s06_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 53,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:E_1",
+        "s06_2143:N"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1__s06_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1__s06_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_E_1__s06_N.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.546,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_E_1__s20_N.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.54,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_N__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_N__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_N__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_N__s20_E_1.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_N__s20_N.ms",
+      "characteristic": 2,
+      "variables": 22,
+      "generators": 40,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_N__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_N__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_E_1__s13_N__s20_N.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_N__s13_E_1__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_N__s05_N__s13_E_1__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_N__s13_E_1__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_N__s13_E_1__s20_E_1.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_N__s13_E_1__s20_N.ms",
+      "characteristic": 2,
+      "variables": 22,
+      "generators": 40,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_N__s05_N__s13_E_1__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_N__s13_E_1__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_N__s13_E_1__s20_N.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_N__s13_N__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 22,
+      "generators": 40,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_N__s05_N__s13_N__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_N__s13_N__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_N__s13_N__s20_E_1.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 3.137,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_N__s13_N__s20_N.ms",
+      "characteristic": 2,
+      "variables": 24,
+      "generators": 36,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:E_1",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_N__s01_E_1__s04_N__s05_N__s13_N__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_N__s13_N__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_E_1__s04_N__s05_N__s13_N__s20_N.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 2.623,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 48,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": false,
+      "status": "NONUNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1__s06_E_1.ms",
+      "characteristic": 2,
+      "variables": 18,
+      "generators": 64,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:E_1",
+        "s06_2143:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1__s06_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1__s06_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1__s06_E_1.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1__s06_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 53,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:E_1",
+        "s06_2143:N"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1__s06_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1__s06_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_E_1__s06_N.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_N.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_E_1__s20_N.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.548,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_N__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_N__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_N__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_N__s20_E_1.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_N__s20_N.ms",
+      "characteristic": 2,
+      "variables": 22,
+      "generators": 40,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_N__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_N__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_E_1__s13_N__s20_N.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_N__s13_E_1__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_E_1__s05_N__s13_E_1__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_N__s13_E_1__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_N__s13_E_1__s20_E_1.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_N__s13_E_1__s20_N.ms",
+      "characteristic": 2,
+      "variables": 22,
+      "generators": 40,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_E_1__s05_N__s13_E_1__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_N__s13_E_1__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_N__s13_E_1__s20_N.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 3.135,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_N__s13_N__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 22,
+      "generators": 40,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_E_1__s05_N__s13_N__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_N__s13_N__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_N__s13_N__s20_E_1.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 0.548,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_N__s13_N__s20_N.ms",
+      "characteristic": 2,
+      "variables": 24,
+      "generators": 36,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:E_1",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_E_1__s05_N__s13_N__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_N__s13_N__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_E_1__s05_N__s13_N__s20_N.log",
+      "swap_used_mib_at_start": 6114.69,
+      "seconds": 2.626,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_E_1__s13_E_1__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 20,
+      "generators": 44,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_N__s05_E_1__s13_E_1__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_E_1__s13_E_1__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_E_1__s13_E_1__s20_E_1.log",
+      "swap_used_mib_at_start": 6106.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_E_1__s13_E_1__s20_N.ms",
+      "characteristic": 2,
+      "variables": 22,
+      "generators": 40,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:E_1",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_N__s05_E_1__s13_E_1__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_E_1__s13_E_1__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_E_1__s13_E_1__s20_N.log",
+      "swap_used_mib_at_start": 6106.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_E_1__s13_N__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 22,
+      "generators": 40,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_N__s05_E_1__s13_N__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_E_1__s13_N__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_E_1__s13_N__s20_E_1.log",
+      "swap_used_mib_at_start": 6106.69,
+      "seconds": 0.55,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_E_1__s13_N__s20_N.ms",
+      "characteristic": 2,
+      "variables": 24,
+      "generators": 36,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:N",
+        "s05_2134:E_1",
+        "s13_3214:N",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_N__s05_E_1__s13_N__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_E_1__s13_N__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_E_1__s13_N__s20_N.log",
+      "swap_used_mib_at_start": 6106.69,
+      "seconds": 0.547,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_N__s13_E_1__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 22,
+      "generators": 40,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_N__s05_N__s13_E_1__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_N__s13_E_1__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_N__s13_E_1__s20_E_1.log",
+      "swap_used_mib_at_start": 6106.69,
+      "seconds": 3.651,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_N__s13_E_1__s20_N.ms",
+      "characteristic": 2,
+      "variables": 24,
+      "generators": 36,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:E_1",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_N__s05_N__s13_E_1__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_N__s13_E_1__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_N__s13_E_1__s20_N.log",
+      "swap_used_mib_at_start": 6106.69,
+      "seconds": 3.148,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_N__s13_N__s20_E_1.ms",
+      "characteristic": 2,
+      "variables": 24,
+      "generators": 36,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:E_1"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_N__s05_N__s13_N__s20_E_1",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_N__s13_N__s20_E_1.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_N__s13_N__s20_E_1.log",
+      "swap_used_mib_at_start": 6098.69,
+      "seconds": 3.142,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    },
+    {
+      "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_N__s13_N__s20_N.ms",
+      "characteristic": 2,
+      "variables": 26,
+      "generators": 32,
+      "u_chart": 5,
+      "u_chart_rows": [
+        3,
+        4
+      ],
+      "cases": [
+        "s00_1243:N",
+        "s01_1324:N",
+        "s04_1432:N",
+        "s05_2134:N",
+        "s13_3214:N",
+        "s20_4231:N"
+      ],
+      "tag": "uc5__s00_N__s01_N__s04_N__s05_N__s13_N__s20_N",
+      "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_N__s13_N__s20_N.gb",
+      "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split/certificates/branches/p2_uc5__s00_N__s01_N__s04_N__s05_N__s13_N__s20_N.log",
+      "swap_used_mib_at_start": 6098.69,
+      "seconds": 5.74,
+      "wrapper_returncode": 0,
+      "child_returncode": 0,
+      "capped": false,
+      "unit": true,
+      "status": "UNIT"
+    }
+  ],
+  "pending": []
+}

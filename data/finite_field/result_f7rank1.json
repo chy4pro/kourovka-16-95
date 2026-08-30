@@ -1,0 +1,4766 @@
+{
+  "field": "GF(7)",
+  "full_symmetry_class_count": 4,
+  "full_symmetry_classes": [
+    {
+      "canonical_matrix": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "good_cycle_type_histogram": {
+        "2-1-1": 4,
+        "4": 2
+      },
+      "members": 7,
+      "structure": {
+        "kind": "scalar_permutation",
+        "permutation": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "scalar": 1
+      }
+    },
+    {
+      "canonical_matrix": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          6
+        ],
+        [
+          1,
+          0,
+          6,
+          1
+        ]
+      ],
+      "good_cycle_type_histogram": {
+        "1-1-1-1": 1,
+        "2-1-1": 2,
+        "2-2": 1,
+        "4": 2
+      },
+      "members": 36,
+      "structure": {
+        "kind": "scalar_permutation_plus_rank_one",
+        "permutation": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "scalar": 1,
+        "u": [
+          0,
+          0,
+          1,
+          6
+        ],
+        "u_support": 2,
+        "w": [
+          0,
+          0,
+          1,
+          6
+        ],
+        "w_support": 2
+      }
+    },
+    {
+      "canonical_matrix": [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0
+        ]
+      ],
+      "good_cycle_type_histogram": {
+        "4": 6
+      },
+      "members": 1,
+      "structure": {
+        "kind": "scalar_permutation_plus_rank_one",
+        "permutation": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "scalar": 6,
+        "u": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "u_support": 4,
+        "w": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "w_support": 4
+      }
+    },
+    {
+      "canonical_matrix": [
+        [
+          1,
+          1,
+          1,
+          5
+        ],
+        [
+          1,
+          1,
+          5,
+          1
+        ],
+        [
+          1,
+          5,
+          1,
+          1
+        ],
+        [
+          5,
+          1,
+          1,
+          1
+        ]
+      ],
+      "good_cycle_type_histogram": {
+        "2-1-1": 4,
+        "4": 2
+      },
+      "members": 1,
+      "structure": {
+        "kind": "scalar_permutation_plus_rank_one",
+        "permutation": [
+          3,
+          2,
+          1,
+          0
+        ],
+        "scalar": 4,
+        "u": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "u_support": 4,
+        "w": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "w_support": 4
+      }
+    }
+  ],
+  "metadata": {
+    "elapsed_seconds": 53.355871291999996,
+    "factor_key_population": 960000,
+    "g_histogram": {
+      "6": 44,
+      "8": 136,
+      "9": 756,
+      "10": 1518,
+      "11": 2572,
+      "12": 23728,
+      "13": 4032,
+      "14": 23090,
+      "15": 79424,
+      "16": 123732,
+      "17": 563768
+    },
+    "invertible_rank1_scanned": 822800,
+    "seed": 0,
+    "target": null
+  },
+  "minimizer_count": 45,
+  "minimizers": [
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          6
+        ],
+        [
+          6,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          6,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          6
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            0,
+            2,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          6,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          1,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            0,
+            2,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          6,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          6,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          6,
+          1,
+          0
+        ],
+        [
+          6,
+          1,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          6,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            0,
+            2,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          0,
+          1,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          6,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          0,
+          1,
+          1,
+          6
+        ],
+        [
+          1,
+          0,
+          6,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          0,
+          1,
+          6,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          6,
+          1,
+          0
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          0,
+          1,
+          6,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          0,
+          6,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          6,
+          0
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            2,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            0,
+            3,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            0,
+            2,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          0,
+          6,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          0,
+          6,
+          6,
+          6
+        ],
+        [
+          6,
+          0,
+          6,
+          6
+        ],
+        [
+          6,
+          6,
+          0,
+          6
+        ],
+        [
+          6,
+          6,
+          6,
+          0
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            1,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            1,
+            0,
+            2
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 0
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          6,
+          0,
+          1
+        ],
+        [
+          6,
+          1,
+          1,
+          0
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          6,
+          1,
+          0
+        ],
+        [
+          6,
+          1,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          6,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          6,
+          1,
+          0
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          6,
+          1,
+          1,
+          0
+        ],
+        [
+          1,
+          6,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            1,
+            0,
+            2
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          6
+        ],
+        [
+          6,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            1,
+            0,
+            2
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          6,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          6,
+          1,
+          1,
+          0
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          6
+        ],
+        [
+          6,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          6,
+          0,
+          1,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            1,
+            0,
+            2
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          6,
+          0
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            1,
+            0,
+            2
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          6,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          6,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          6,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          6,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          0,
+          6,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          6
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            1,
+            0,
+            2
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          1,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          6,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          1,
+          0,
+          6
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            1,
+            0,
+            2
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          1,
+          6,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          6,
+          1,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          1,
+          6,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          6,
+          1,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            2,
+            0,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            0,
+            1,
+            3
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            1,
+            0,
+            2
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          6,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          6
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            3,
+            2,
+            1,
+            0
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          6,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            1,
+            3,
+            2,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            2,
+            1,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            0,
+            2,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            3,
+            1
+          ],
+          "permutation": [
+            3,
+            1,
+            0,
+            2
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          6,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          6,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            1,
+            0,
+            3,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            2,
+            2
+          ],
+          "permutation": [
+            2,
+            3,
+            0,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          1,
+          6,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          1,
+          6,
+          1
+        ]
+      ],
+      "rank_A_minus_I": 1
+    },
+    {
+      "good": [
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            2,
+            3,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            1,
+            3,
+            0,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            0,
+            3,
+            1
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            2,
+            3,
+            1,
+            0
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            0,
+            1,
+            2
+          ]
+        },
+        {
+          "cycle_type": [
+            4
+          ],
+          "permutation": [
+            3,
+            2,
+            0,
+            1
+          ]
+        }
+      ],
+      "matrix": [
+        [
+          3,
+          2,
+          2,
+          2
+        ],
+        [
+          2,
+          3,
+          2,
+          2
+        ],
+        [
+          2,
+          2,
+          3,
+          2
+        ],
+        [
+          2,
+          2,
+          2,
+          3
+        ]
+      ],
+      "rank_A_minus_I": 1
+    }
+  ],
+  "mode": "exhaustive_rank_0_1"
+}

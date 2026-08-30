@@ -1,0 +1,282 @@
+{
+  "characteristics": [
+    11,
+    13
+  ],
+  "symmetry_orbits": [
+    [
+      0
+    ],
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      5
+    ]
+  ],
+  "representatives": [
+    0,
+    1,
+    5
+  ],
+  "primes": [
+    {
+      "characteristic": 11,
+      "inventory": {
+        "sha256": "b323a87aaf31432796ab1f7a0c40889da28d8c39b6dcece0130d12b1317e52a1",
+        "permutations": 23,
+        "verified": true
+      },
+      "charts": [
+        {
+          "characteristic": 11,
+          "u_chart": 0,
+          "state_sha256": "6ee33a3aab4e919fc9ffa1e6b8f87d22a21fbda8d454db65e4b04f3ad9242bc9",
+          "tested_nodes": 826,
+          "status_counts": {
+            "UNIT": 795,
+            "NONUNIT": 31
+          },
+          "candidate_leaves": 0,
+          "max_depth": 10,
+          "max_seconds": 13.446,
+          "max_peak_rss_kib": 1195456,
+          "verified": true,
+          "control": {
+            "sha256": "8a7c3a9dfc62c64ac1934e10e1c7b9bf415f3d3afab3a8d2b4eb02070fed41e7",
+            "status": "NONUNIT",
+            "case_keys": [
+              "1:E_1",
+              "2:E_1",
+              "3:E_1",
+              "6:E_1",
+              "7:E_1",
+              "8:E_1",
+              "10:E_1",
+              "11:E_1",
+              "14:E_1",
+              "15:E_1",
+              "16:E_1",
+              "17:E_1",
+              "18:E_1",
+              "19:E_1",
+              "20:E_1",
+              "21:E_1",
+              "22:E_1"
+            ],
+            "verified": true
+          }
+        },
+        {
+          "characteristic": 11,
+          "u_chart": 1,
+          "state_sha256": "9d87cfa1deba51f8cbb4c57976f4d17c91ae2378f55e843fa2230fd956596973",
+          "tested_nodes": 806,
+          "status_counts": {
+            "UNIT": 781,
+            "NONUNIT": 25
+          },
+          "candidate_leaves": 0,
+          "max_depth": 10,
+          "max_seconds": 13.447,
+          "max_peak_rss_kib": 1192832,
+          "verified": true,
+          "control": {
+            "sha256": "abb3e5711cabb172e105a015372a1d169621c3f85571aed8441613c3acec904e",
+            "status": "NONUNIT",
+            "case_keys": [
+              "1:E_1",
+              "2:E_1",
+              "3:E_1",
+              "6:E_1",
+              "7:E_1",
+              "8:E_1",
+              "10:E_1",
+              "11:E_1",
+              "14:E_1",
+              "15:E_1",
+              "16:E_1",
+              "17:E_1",
+              "18:E_1",
+              "19:E_1",
+              "20:E_1",
+              "21:E_1",
+              "22:E_1"
+            ],
+            "verified": true
+          }
+        },
+        {
+          "characteristic": 11,
+          "u_chart": 5,
+          "state_sha256": "94de6c0be6e4ca1d95d9253936fe3def26654895dce5ee9228f2b02980a55403",
+          "tested_nodes": 797,
+          "status_counts": {
+            "UNIT": 775,
+            "NONUNIT": 22
+          },
+          "candidate_leaves": 0,
+          "max_depth": 10,
+          "max_seconds": 8.364,
+          "max_peak_rss_kib": 1082128,
+          "verified": true,
+          "control": {
+            "sha256": "27ad24fb9201f9e825834ade5dbe441526539137528d339e7bed55cf89cefae2",
+            "status": "NONUNIT",
+            "case_keys": [
+              "1:E_1",
+              "2:E_1",
+              "3:E_1",
+              "6:E_1",
+              "7:E_1",
+              "8:E_1",
+              "10:E_1",
+              "11:E_1",
+              "14:E_1",
+              "15:E_1",
+              "16:E_1",
+              "17:E_1",
+              "18:E_1",
+              "19:E_1",
+              "20:E_1",
+              "21:E_1",
+              "22:E_1"
+            ],
+            "verified": true
+          }
+        }
+      ]
+    },
+    {
+      "characteristic": 13,
+      "inventory": {
+        "sha256": "98b414ab05b310550ae9099aea12b385823b9b4f19c2560a34fa2c8ab95afa50",
+        "permutations": 23,
+        "verified": true
+      },
+      "charts": [
+        {
+          "characteristic": 13,
+          "u_chart": 0,
+          "state_sha256": "d8d6c0ce1536e6b15e56f4575520b53e6c277bb2d39b1ecf9d66b8398efe57d1",
+          "tested_nodes": 826,
+          "status_counts": {
+            "UNIT": 795,
+            "NONUNIT": 31
+          },
+          "candidate_leaves": 0,
+          "max_depth": 10,
+          "max_seconds": 66.137,
+          "max_peak_rss_kib": 1198240,
+          "verified": true,
+          "control": {
+            "sha256": "e95f77e3a7d331cccacb5c4ff7b7217411e37570c9ccaaad4d8a17174dfc2c06",
+            "status": "NONUNIT",
+            "case_keys": [
+              "1:E_1",
+              "2:E_1",
+              "3:E_1",
+              "6:E_1",
+              "7:E_1",
+              "8:E_1",
+              "10:E_1",
+              "11:E_1",
+              "14:E_1",
+              "15:E_1",
+              "16:E_1",
+              "17:E_1",
+              "18:E_1",
+              "19:E_1",
+              "20:E_1",
+              "21:E_1",
+              "22:E_1"
+            ],
+            "verified": true
+          }
+        },
+        {
+          "characteristic": 13,
+          "u_chart": 1,
+          "state_sha256": "d2a44121e11ea299b4377af48ba8dfa1c766ba53a8e97747484fc71873c4f149",
+          "tested_nodes": 806,
+          "status_counts": {
+            "UNIT": 781,
+            "NONUNIT": 25
+          },
+          "candidate_leaves": 0,
+          "max_depth": 10,
+          "max_seconds": 20.964,
+          "max_peak_rss_kib": 1120432,
+          "verified": true,
+          "control": {
+            "sha256": "643c3dc631616793d19f8f3ffc7a7a25cb77aa52a132f5afb50603d9e6250503",
+            "status": "NONUNIT",
+            "case_keys": [
+              "1:E_1",
+              "2:E_1",
+              "3:E_1",
+              "6:E_1",
+              "7:E_1",
+              "8:E_1",
+              "10:E_1",
+              "11:E_1",
+              "14:E_1",
+              "15:E_1",
+              "16:E_1",
+              "17:E_1",
+              "18:E_1",
+              "19:E_1",
+              "20:E_1",
+              "21:E_1",
+              "22:E_1"
+            ],
+            "verified": true
+          }
+        },
+        {
+          "characteristic": 13,
+          "u_chart": 5,
+          "state_sha256": "0af10e601eee8ec99e3af67d5f10843ace279eb68b15fb702d1df653501c655d",
+          "tested_nodes": 797,
+          "status_counts": {
+            "UNIT": 775,
+            "NONUNIT": 22
+          },
+          "candidate_leaves": 0,
+          "max_depth": 10,
+          "max_seconds": 48.038,
+          "max_peak_rss_kib": 1042928,
+          "verified": true,
+          "control": {
+            "sha256": "29bc2e10cb3461d4cbe71707f3ed98f839cd83e0315f34aa50970496882d5068",
+            "status": "NONUNIT",
+            "case_keys": [
+              "1:E_1",
+              "2:E_1",
+              "3:E_1",
+              "6:E_1",
+              "7:E_1",
+              "8:E_1",
+              "10:E_1",
+              "11:E_1",
+              "14:E_1",
+              "15:E_1",
+              "16:E_1",
+              "17:E_1",
+              "18:E_1",
+              "19:E_1",
+              "20:E_1",
+              "21:E_1",
+              "22:E_1"
+            ],
+            "verified": true
+          }
+        }
+      ]
+    }
+  ],
+  "verified": true
+}

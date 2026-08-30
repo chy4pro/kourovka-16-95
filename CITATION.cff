@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this verification package, please cite it."
+title: "Kourovka 16.95, n at most 4: verification package"
+type: software
+authors:
+  - name: chy4pro
+version: 1.0.0
+date-released: 2026-08-30
+license: MIT
+repository-code: "https://github.com/chy4pro/kourovka-16-95"

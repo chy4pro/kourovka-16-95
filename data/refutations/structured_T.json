@@ -1,0 +1,31 @@
+{
+  "cell": "structured-T",
+  "q": 4,
+  "n": 5,
+  "point": 1,
+  "coverage": {
+    "kind": "exact_named_single_column_neighborhood_with_full_right_orbits",
+    "matrix": "T",
+    "variants_before_invertibility_filter": 5116,
+    "invertible_variants": 3836,
+    "permutations_per_variant": 120,
+    "note": "base plus every proper single-column replacement; parameterized orbit visits retained"
+  },
+  "seed": 169563,
+  "candidate_states": 613920,
+  "invertible_states": 460320,
+  "noncyclic_states": 146856,
+  "kd_local_maxima": 87,
+  "twostep_failures": 12,
+  "strict_local_maxima": 12,
+  "u2_failures": 0,
+  "kd_histogram": {
+    "1": 288,
+    "2": 8293,
+    "3": 31048,
+    "4": 107227,
+    "5": 313464
+  },
+  "seconds": 4.128659,
+  "witnesses_jsonl": "source-artifacts/k1695_r6_u2census/structured_T_witnesses.jsonl"
+}

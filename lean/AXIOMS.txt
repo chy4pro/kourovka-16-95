@@ -1,0 +1,8 @@
+Recorded successful kernel checks
+=================================
+
+goodCount3: propext, Classical.choice, Quot.sound (12.5 s)
+stratumB_minpoly: propext, Classical.choice, Quot.sound (7.8 s audit)
+minpoly_eq_charpoly_of_rank_ge: propext, Classical.choice, Quot.sound (127.5 s audit)
+
+The verbatim wrapper outputs are in recorded_checks/. Each records EXIT code=0.

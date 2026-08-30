@@ -1,0 +1,29 @@
+{
+  "path": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split1113/certificates/branches/p13_uc1__s00_E_m1__s01_N__s04_N__s05_N__s13_E_m1__s20_N.ms",
+  "characteristic": 13,
+  "variables": 22,
+  "generators": 54,
+  "u_chart": 1,
+  "u_chart_rows": [
+    1,
+    3
+  ],
+  "cases": [
+    "s00_1243:E_m1",
+    "s01_1324:N",
+    "s04_1432:N",
+    "s05_2134:N",
+    "s13_3214:E_m1",
+    "s20_4231:N"
+  ],
+  "tag": "uc1__s00_E_m1__s01_N__s04_N__s05_N__s13_E_m1__s20_N",
+  "gb": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split1113/certificates/branches/p13_uc1__s00_E_m1__s01_N__s04_N__s05_N__s13_E_m1__s20_N.gb",
+  "log": "./contributor/workspace/claudecode/automath/source-artifacts/k1695_r6_r2split1113/certificates/branches/p13_uc1__s00_E_m1__s01_N__s04_N__s05_N__s13_E_m1__s20_N.log",
+  "swap_used_mib_at_start": 5410.88,
+  "seconds": 0.564,
+  "wrapper_returncode": 0,
+  "child_returncode": 0,
+  "capped": false,
+  "unit": true,
+  "status": "UNIT"
+}

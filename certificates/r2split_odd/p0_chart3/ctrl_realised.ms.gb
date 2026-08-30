@@ -1,0 +1,33 @@
+#Reduced Groebner basis data
+#---
+#field characteristic: 0
+#variable order:       u11, u12, u21, u22, u31, u32, u41, u42, w31, w32, w41, w42, za, zu
+#monomial order:       graded reverse lexicographical
+#length of basis:      26 elements sorted by increasing leading monomials
+#---
+[w41+1, 
+w31, 
+u22*u31*zu-u21*u32*zu+1, 
+u32*u41*w42-u31*u42*w42+u32*u41-u31*u42, 
+u12*u41*w42+u22*u41*w42-u11*u42*w42-u21*u42*w42+u12*u41+u22*u41-u11*u42-u21*u42, 
+u12*u31*w42+u22*u31*w42-u11*u32*w42-u21*u32*w42+u12*u31+u22*u31-u11*u32-u21*u32, 
+u32*u41*w32-u31*u42*w32, 
+u12*u41*w32+u22*u41*w32-u11*u42*w32-u21*u42*w32, 
+u12*u31*w32+u22*u31*w32-u11*u32*w32-u21*u32*w32, 
+u22*u31*w32*za-u21*u32*w32*za+u22*u41*w42*za-u21*u42*w42*za-u12*u21*za+u11*u22*za+u12*u41*za-u11*u42*za+u32*w32*za+u42*w42*za+u11*za+u22*za-u41*za+za-1, 
+u22*u41*w42*za*zu-u21*u42*w42*za*zu-u12*u21*za*zu+u11*u22*za*zu+u12*u41*za*zu-u11*u42*za*zu+u32*w32*za*zu+u42*w42*za*zu+u11*za*zu+u22*za*zu-u41*za*zu-w32*za+za*zu-zu, 
+u12*u21*u32*za*zu-u11*u22*u32*za*zu-u12*u32*u41*za*zu+u22*u32*u41*za*zu+u11*u32*u42*za*zu-u21*u32*u42*za*zu-u32^2*w32*za*zu-u32*u42*w42*za*zu-u11*u32*za*zu-u22*u32*za*zu+u32*u41*za*zu+u32*w32*za+u42*w42*za-u32*za*zu+u42*za+u32*zu, 
+u12*u21*u31*za*zu-u11*u21*u32*za*zu-u12*u31*u41*za*zu+u21*u32*u41*za*zu+u11*u31*u42*za*zu-u21*u31*u42*za*zu-u31*u32*w32*za*zu-u31*u42*w42*za*zu-u11*u31*za*zu-u21*u32*za*zu+u31*u41*za*zu+u31*w32*za+u41*w42*za-u31*za*zu+u11*za+u31*zu+za, 
+u12*u21*u32*w42*zu-u11*u22*u32*w42*zu+u12*u21*u32*zu-u11*u22*u32*zu-u12*w42-u22*w42-u12-u22, 
+u12*u21*u32*w32*zu-u11*u22*u32*w32*zu-u12*w32-u22*w32, 
+u12*u21*u32*w32*za-u11*u22*u32*w32*za+u12*u21*u42*w42*za-u11*u22*u42*w42*za+u12^2*u21*za-u11*u12*u22*za+u12*u21*u22*za-u11*u22^2*za-u12^2*u41*za+u22^2*u41*za+u11*u12*u42*za-u21*u22*u42*za-u12*u32*w32*za-u22*u32*w32*za-u12*u42*w42*za-u22*u42*w42*za-u11*u12*za-u11*u22*za-u12*u22*za-u22^2*za+u12*u41*za+u22*u41*za-u12*za-u22*za+u12+u22, 
+u12*u21*u32*u41*za-u11*u22*u32*u41*za-u12*u32*u41^2*za+u22*u32*u41^2*za-u12*u21*u31*u42*za+u11*u22*u31*u42*za+u12*u31*u41*u42*za-u22*u31*u41*u42*za+u11*u32*u41*u42*za-u21*u32*u41*u42*za-u11*u31*u42^2*za+u21*u31*u42^2*za-u11*u32*u41*za-u22*u32*u41*za+u32*u41^2*za+u11*u31*u42*za+u22*u31*u42*za-u31*u41*u42*za+u32*u41*u42*za-u31*u42^2*za-u32*u41*za+u31*u42*za+u32*u41-u31*u42, 
+u12^2*u21*u41*za-u11*u12*u22*u41*za+u12*u21*u22*u41*za-u11*u22^2*u41*za-u12^2*u41^2*za+u22^2*u41^2*za-u11*u12*u21*u42*za-u12*u21^2*u42*za+u11^2*u22*u42*za+u11*u21*u22*u42*za+2*u11*u12*u41*u42*za-2*u21*u22*u41*u42*za-u11^2*u42^2*za+u21^2*u42^2*za-u11*u12*u41*za-u11*u22*u41*za-u12*u22*u41*za-u22^2*u41*za+u12*u41^2*za+u22*u41^2*za+u11^2*u42*za+u11*u21*u42*za+u11*u22*u42*za+u21*u22*u42*za-u11*u41*u42*za+u12*u41*u42*za-u21*u41*u42*za+u22*u41*u42*za-u11*u42^2*za-u21*u42^2*za-u12*u41*za-u22*u41*za+u11*u42*za+u21*u42*za+u12*u41+u22*u41-u11*u42-u21*u42, 
+u12^2*u21*u31*za-u11*u12*u22*u31*za+u12*u21*u22*u31*za-u11*u22^2*u31*za-u11*u12*u21*u32*za-u12*u21^2*u32*za+u11^2*u22*u32*za+u11*u21*u22*u32*za-u12^2*u31*u41*za+u22^2*u31*u41*za+u11*u12*u32*u41*za-u21*u22*u32*u41*za+u12*u32*u41^2*za-u22*u32*u41^2*za+u11*u12*u31*u42*za-u21*u22*u31*u42*za-u11^2*u32*u42*za+u21^2*u32*u42*za-u12*u31*u41*u42*za+u22*u31*u41*u42*za-u11*u32*u41*u42*za+u21*u32*u41*u42*za+u11*u31*u42^2*za-u21*u31*u42^2*za-u11*u12*u31*za-u11*u22*u31*za-u12*u22*u31*za-u22^2*u31*za+u11^2*u32*za+u11*u21*u32*za+u11*u22*u32*za+u21*u22*u32*za+u12*u31*u41*za+u22*u31*u41*za-u21*u32*u41*za+u22*u32*u41*za-u32*u41^2*za-u11*u31*u42*za+u12*u31*u42*za-u11*u32*u42*za-u21*u32*u42*za+u31*u41*u42*za-u32*u41*u42*za+u31*u42^2*za-u12*u31*za-u22*u31*za+u11*u32*za+u21*u32*za+u32*u41*za-u31*u42*za+u12*u31+u22*u31-u11*u32-u21*u32-u32*u41+u31*u42, 
+u32^2*w32*w42*za*zu+u32*u42*w42^2*za*zu+u32^2*w32*za*zu+u11*u32*w42*za*zu+u22*u32*w42*za*zu-u31*u42*w42*za*zu+u32*u42*w42*za*zu-u32*w32*w42*za-u42*w42^2*za+u11*u32*za*zu+u22*u32*za*zu-u31*u42*za*zu+u32*w42*za*zu-u32*w32*za-u12*w42*za-u22*w42*za-u32*w42*zu+u32*za*zu-u12*za-u22*za+u42*za-u32*zu, 
+u31*u32*w32*w42*za*zu+u31*u42*w42^2*za*zu+u31*u32*w32*za*zu+u11*u31*w42*za*zu+u21*u32*w42*za*zu-u31*u41*w42*za*zu+u31*u42*w42*za*zu-u31*w32*w42*za-u41*w42^2*za+u11*u31*za*zu+u21*u32*za*zu-u31*u41*za*zu+u31*w42*za*zu-u31*w32*za-u11*w42*za-u21*w42*za-u31*w42*zu+u31*za*zu-u11*za-u21*za+u41*za-w42*za-u31*zu-za, 
+u12*u21*u42*w42*za*zu-u11*u22*u42*w42*za*zu+u12^2*u21*za*zu-u11*u12*u22*za*zu+u12*u21*u22*za*zu-u11*u22^2*za*zu-u12^2*u41*za*zu+u22^2*u41*za*zu+u11*u12*u42*za*zu-u21*u22*u42*za*zu-u12*u32*w32*za*zu-u22*u32*w32*za*zu-u12*u42*w42*za*zu-u22*u42*w42*za*zu-u11*u12*za*zu-u11*u22*za*zu-u12*u22*za*zu-u22^2*za*zu+u12*u41*za*zu+u22*u41*za*zu+u12*w32*za+u22*w32*za-u12*za*zu-u22*za*zu+u12*zu+u22*zu, 
+u32^2*w32^2*za*zu+u32*u42*w32*w42*za*zu+u11*u32*w32*za*zu+u22*u32*w32*za*zu-u31*u42*w32*za*zu-u32*w32^2*za-u42*w32*w42*za+u32*w32*za*zu-u12*w32*za-u22*w32*za+u42*w32*za-u32*w32*zu, 
+u31*u32*w32^2*za*zu+u31*u42*w32*w42*za*zu+u11*u31*w32*za*zu+u21*u32*w32*za*zu-u31*u41*w32*za*zu-u31*w32^2*za-u41*w32*w42*za+u31*w32*za*zu-u11*w32*za-u21*w32*za+u41*w32*za-u31*w32*zu-w32*za, 
+u31^2*u42*w32*w42*za*zu+u31*u41*u42*w42^2*za*zu+u31^2*u42*w32*za*zu+u11*u31*u41*w42*za*zu-u31*u41^2*w42*za*zu+u21*u31*u42*w42*za*zu+u31*u41*u42*w42*za*zu-u31*u41*w32*w42*za-u41^2*w42^2*za+u11*u31*u41*za*zu-u31*u41^2*za*zu+u21*u31*u42*za*zu+u31*u41*w42*za*zu-u31*u41*w32*za-u11*u41*w42*za-u21*u41*w42*za-u31*u41*w42*zu+u31*u41*za*zu-u11*u41*za-u21*u41*za+u41^2*za-u41*w42*za-u31*u41*zu-u41*za, 
+u31^2*u42*w32^2*za*zu+u31*u41*u42*w32*w42*za*zu+u11*u31*u41*w32*za*zu-u31*u41^2*w32*za*zu+u21*u31*u42*w32*za*zu-u31*u41*w32^2*za-u41^2*w32*w42*za+u31*u41*w32*za*zu-u11*u41*w32*za-u21*u41*w32*za+u41^2*w32*za-u31*u41*w32*zu-u41*w32*za]:
